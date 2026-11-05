@@ -34,7 +34,7 @@ export default function About() {
    useGSAP(() => {
 
     const split = new SplitText(scrollTitleOne.current, {
-      type: "lines",
+      type: "chars",
     });
 
     const mm = gsap.matchMedia();
@@ -43,7 +43,7 @@ export default function About() {
 
       gsap.fromTo(
         // scrollTitleOne.current,
-        split.lines,
+        split.chars,
         { opacity: 0.05},
         {
           opacity: 1,
@@ -73,14 +73,14 @@ export default function About() {
     gsap.registerPlugin(ScrollTrigger, SplitText);
 
     const split = new SplitText(scrollTitleTwo.current, {
-      type: "lines",
+      type: "chars",
     });
 
     mm.add("(min-width: 1200px)", () => {
 
       gsap.fromTo(
 
-        split.lines,
+        split.chars,
         {
           opacity:0.05
         },
@@ -137,19 +137,19 @@ export default function About() {
 
                     <h1 className={`bnr_titl ${styles.clr_wht}`}>
 
-                      Bringing Global Beauty Expertise to India's Market.
+                    Crafting the Next Generation of Beauty in India.
 
                     </h1>
                     
 
                     <p className="txt mt-3">
 
-                    kdc/one Clarion Beauty brings together global beauty innovation and deep Indian market insight. By uniting international expertise with local market knowledge, we help beauty and personal care brands develop distinctive, market-relevant products. <br/> <br />
-                    Together, we create new possibilities for beauty through integrated capabilities and shared expertise.
+                    kdc/one Clarion Beauty brings together global beauty innovation and deep Asian market insight. By uniting international expertise with local market knowledge, we help beauty and personal care brands develop distinctive, market-relevant products. <br /> <br />
+                   Together, we create new possibilities for beauty through integrated capabilities and shared expertise.
 
                     </p>
 
-                    <Link href="#" className="common_btn mt-4"> <span>Start a Project</span> <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></Link>
+                    <Link href="/contact-us" className="common_btn mt-4"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></Link>
 
                 </div>
 
@@ -182,13 +182,13 @@ export default function About() {
 
                    <h2 className="blk_cmmn_tit">
 
-                     Two Strengths.<br /> One Beauty Partner.
+                   Two Strengths. <br />One Beauty Partner.
 
                    </h2>
 
                    <p className={styles.strgt_txt}>
                   
-                   kdc/one Clarion Beauty was created with a clear ambition: to bring world-class beauty innovation and premium packaging capabilities closer to brands operating in India and beyond.
+                   Bringing world-class beauty innovation and packaging expertise together with Asian manufacturing capabilities to create premium, Made in India solutions for beauty brands.
 
                    </p>
 
@@ -203,12 +203,11 @@ export default function About() {
                    <div className={`${styles.spc_tp_th} ${styles.strgt_crd}`} data-aos="fade-right">
 
                      <h3>
-                       kdc/one - Global beauty innovation and expertise
+                     kdc/one - Global beauty innovation and expertise
                      </h3>
 
                      <p>
-                       kdc/one brings an expansive formulation library across skincare and haircare, global R&D capabilities, established technology-transfer expertise and long-standing relationships across the international beauty industry.<br /><br />
-                       Through HCT by kdc/one, the partnership also gains access to global packaging design, development and engineering expertise.
+                     kdc/one brings global expertise in beauty innovation, formulation, product development, packaging design and engineering. With integrated capabilities spanning from concept to manufacturing, it helps beauty and personal care brands develop distinctive products through technical expertise, creative thinking and solutions tailored to evolving market needs.
                      </p>
 
                    </div>
@@ -232,8 +231,7 @@ export default function About() {
                         </h3>
 
                         <p>
-                        Clarion brings more than three decades of manufacturing experience, strong knowledge of the Indian market, established customer relationships and a significant manufacturing footprint across India.<br /> <br />
-                        Its local capabilities in manufacturing, filling and finishing provide the operational foundation to transform global beauty ideas into scalable solutions for the market.
+                        Clarion Group brings established manufacturing experience, formulation knowledge and a deep understanding of the Indian beauty and personal care market. Its local expertise and operational capabilities help brands develop products aligned with market requirements, evolving consumer preferences and manufacturing needs.
                         </p>
 
                     </div>
@@ -256,15 +254,14 @@ export default function About() {
 
                   <h2 className="wht_cmmn_tit">
 
-                     Why We Came Together
+                  Why Beauty Brands Partner With Us. 
 
                   </h2>
 
                   <p className={`wht_txt ${styles.wht_txt}`}>
                 
-                    The beauty market is changing rapidly.<br /> <br />
-                    Brands are looking for better-performing products, more distinctive packaging, faster access to innovation and manufacturing partners who understand both global expectations and local market realities.<br /> <br />
-                    kdc/one Clarion Beauty was created to bridge that gap.
+                  Beauty brands need more than individual capabilities; they need the right expertise working in sync. This partnership brings formulation, packaging and manufacturing closer together, helping turn promising ideas into distinctive beauty products made in India.
+
 
                   </p>
 
@@ -357,7 +354,7 @@ export default function About() {
  
                    <p className={styles.small_txt}>Our Mission</p>
 
-                   <h2 ref={scrollTitleOne} className={styles.scroll_title}>We partner with Indian and international beauty and personal care brands to develop high-quality, market-relevant products and packaging, combining global formulation and design expertise with local market knowledge.</h2>
+                   <h2 ref={scrollTitleOne} className={styles.scroll_title}>To empower brands with globally informed, locally relevant beauty solutions spanning formulation, packaging development and scalable manufacturing.</h2>
 
                </div>
 
@@ -388,7 +385,7 @@ export default function About() {
 
                <div className="col-sm-12 col-md-10 col-lg-7 col-xl-7">
 
-                     <h2 className="blk_cmmn_tit text-center">From Idea to Finished Product</h2>
+                     <h2 className="blk_cmmn_tit text-center">Turning Ideas Into Market Ready Beauty </h2>
 
                </div>
 

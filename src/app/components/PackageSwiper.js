@@ -58,14 +58,14 @@ export default function PackageSwiper({}) {
 
                   <h4><span>Stock Packaging</span> </h4>
 
-                  <p>Ready-to-select packaging helps brands move faster, with versatile formats suited to product types, dispensing needs, brand requirements and launch priorities.</p>
+                  <p>Ready-to-select packaging for a range of product needs. Explore established formats based on functionality, dispensing requirements and brand preferences.</p>
 
               </div>
 
               <div className="d-flex lft_cnt" data-aos="fade-right">
  
                     <p>
-                       Pump formats offer controlled dispensing, easy handling and clean presentation across a range of products.
+                    Designed for controlled dispensing, pump formats support easy handling and consistent product use across varied product types.
                     </p>
 
                     <img className="line_img" src="../assets/img/blu-line.svg" alt="Right Arrow" />
@@ -75,7 +75,7 @@ export default function PackageSwiper({}) {
               <div className="mdl_cnt" data-aos="fade-down">
 
                     <p>
-                      Jar formats balance easy access, function and presence.
+                    Designed for easy access, with function and form in balance.
                     </p>
 
                     <img className="line_img" src="../assets/img/dw-line.svg" alt="Right Arrow" />
@@ -87,7 +87,7 @@ export default function PackageSwiper({}) {
                    <img className="line_img" src="../assets/img/blu-line.svg" alt="Right Arrow" />
  
                     <p>
-                       Pump formats offer controlled dispensing, easy handling and clean presentation across a range of products.
+                    Secondary packaging protects products while adding structure and consistency to the overall presentation across retail environments.
                     </p>
 
               </div>
@@ -106,7 +106,7 @@ export default function PackageSwiper({}) {
 
                   <h4><span>Packaging</span> </h4>
 
-                  <p>Ready-to-select packaging helps brands move faster, with versatile formats suited to product types, dispensing needs, brand requirements and launch priorities.</p>
+                  <p>Ready-to-select packaging for a range of product needs. Explore established formats based on functionality, dispensing requirements and brand preferences.</p>
 
               </div>
 

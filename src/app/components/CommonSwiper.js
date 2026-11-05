@@ -6,6 +6,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Link from "next/link";
 
 
 
@@ -52,7 +53,7 @@ export default function CommonSwiper({slides}) {
 
               <img src={slide.img} alt={slide.title} width="100%"/>
 
-              <h4><span>{slide.title}</span>  <img className="line_img" src="../../assets/img/right_arrow_icn.svg" alt="Right Arrow" /></h4>
+              <Link href="/products" ><span>{slide.title}</span>  <img className="line_img" src="../../assets/img/right_arrow_icn.svg" alt="Right Arrow" /></Link>
 
           </div>
 

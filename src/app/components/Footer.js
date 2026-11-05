@@ -23,9 +23,9 @@ export default function Footer(){
 
                         <div className="ftr_btns">
 
-                        <Link href="#" className="common_btn"> <span>Explore Packaging</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24}/></Link>
+                        <Link href="/contact-us" className="common_btn"> <span>Request Consultation</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24}/></Link>
 
-                        <Link href="#" className="wht_btn"> <span>Request Consultation</span> <Image src="/assets/img/blu-arr.svg" alt="Logo" width={24} height={24}/></Link>
+                        {/* <Link href="#" className="wht_btn"> <span>Request Consultation</span> <Image src="/assets/img/blu-arr.svg" alt="Logo" width={24} height={24}/></Link> */}
 
                         </div>
 
@@ -33,19 +33,19 @@ export default function Footer(){
 
                 </div>
               
-                <div className="row tp_bt_spc br_wdth">
+                <div className="row tp_bt_spc br_wdth justify-content-between">
 
                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
 
                       <h4>Quick Links</h4>
 
                        <ul className="ftr_links">
-                            <li><Link href="">Home</Link></li>
-                            <li><Link href="">About Us</Link></li>
-                            <li><Link href="">Innovation</Link></li>
-                            <li><Link href="">Infrastructure</Link></li>
-                            <li><Link href="">Insights</Link></li>
-                            <li><Link href="">Contact Us</Link></li>
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/about">About Us</Link></li>
+                            <li><Link href="/innovation">Innovation</Link></li>
+                            <li><Link href="/infrastructure">Infrastructure</Link></li>
+                            {/* <li><Link href="">Insights</Link></li> */}
+                            <li><Link href="/contact-us">Contact Us</Link></li>
                        </ul>
                       
                    </div>
@@ -55,17 +55,17 @@ export default function Footer(){
                       <h4>Capabilities</h4>        
 
                         <ul className="ftr_links">
-                            <li><Link href="">Design and Innovation</Link></li>
-                            <li><Link href="">Product Development</Link></li>
-                            <li><Link href="">Formulation Support</Link></li>
-                            <li><Link href="">Printing</Link></li>
-                            <li><Link href="">Quality Assurance</Link></li>
-                            <li><Link href="">Supply Chain</Link></li>
+                            <li><Link href="/infrastructure">Design and Innovation</Link></li>
+                            <li><Link href="/infrastructure">Product Development</Link></li>
+                            <li><Link href="/infrastructure">Formulation Support</Link></li>
+                            <li><Link href="/infrastructure">Printing</Link></li>
+                            <li><Link href="/infrastructure">Quality Assurance</Link></li>
+                            <li><Link href="/infrastructure">Supply Chain</Link></li>
                         </ul>
 
                    </div>
 
-                   <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                   {/* <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
 
                      <h4>Solutions</h4>         
                     
@@ -77,16 +77,16 @@ export default function Footer(){
                             <li><Link href="">Contract Manufacturing</Link></li>
                         </ul>
 
-                   </div>
+                   </div> */}
 
                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
 
                      <h4>Products</h4>         
                      
                         <ul className="ftr_links">
-                            <li><Link href="">Skincare</Link></li>
-                            <li><Link href="">Haircare</Link></li>
-                            <li><Link href="">Personal Care</Link></li>
+                            <li><Link href="/products">Skincare</Link></li>
+                            <li><Link href="/products">Haircare</Link></li>
+                            <li><Link href="/products">Personal Care</Link></li>
                         </ul>
 
                    </div>

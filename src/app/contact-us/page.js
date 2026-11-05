@@ -17,10 +17,10 @@ export default function products(){
 
                     <div className="col-md-12 col-lg-6 col-xl-6" data-aos="fade-right">
 
-                        <h2 className="blk_cmmn_tit">Let’s Create What’s Next in Beauty</h2>
+                        <h2 className="blk_cmmn_tit">Let’s Bring Your Beauty Vision To Life </h2>
 
-                         <p>Whether you are exploring premium packaging, developing a new formulation or looking for a partner to support your next beauty product, we’d be glad to hear from you.<br /><br />
-                           Tell us a little about your requirements and our team will connect you with the right expertise.</p>
+                         <p>Whether you’re developing a new beauty product or refining an existing range, we bring formulation, packaging and manufacturing expertise to help move your project forward.<br /> <br />
+Share your requirements with us, and our team will connect with you to explore the right solutions for your brand.</p>
 
 
                             <div className={styles.social_info}>
@@ -75,21 +75,23 @@ export default function products(){
                             
                             <form>
 
+                                <input type="text" placeholder="Enter your full name" />
+
+                                <input type="text" placeholder="Enter your company name" />
+
+                                <input type="text" placeholder="Enter your designation" />
+
                                 <input type="text" placeholder="Enter your email address" />
 
                                 <input type="text" placeholder="Enter your mobile number" />
 
-                                <input type="text" placeholder="Enter your mobile number" />
-
-                                <input type="text" placeholder="Enter your company" />
-
                                 <select>
                                     
                                     <option>--Select the product categories--</option>
-                                    <option value="test">Test</option>
-                                    <option value="test">Test</option>
-                                    <option value="test">Test</option>
-                                    <option value="test">Test</option>
+                                    <option value="Skincare">Skincare</option>
+                                    <option value="Hair Care">Hair Care</option>
+                                    <option value="Sun Protection">Sun Protection</option>
+                                
 
                                 </select>
 

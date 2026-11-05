@@ -19,11 +19,11 @@ export default function innovation(){
 
                     <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-4" data-aos="fade-right">
 
-                        <h1 className="bnr_titl">Global Beauty Thinking. Closer to India.</h1>
+                        <h1 className="bnr_titl">Bringing World Beauty Innovation Closer.</h1>
 
-                        <p>Innovation at kdc/one Clarion Beauty brings together international beauty trends, advanced packaging engineering and a deep understanding of Indian consumer preferences and market needs.</p>
+                        <p>Global beauty advancement, shaped by Asian insight. We bring together advanced formulations, elevated aesthetics, and precision manufacturing to create beauty products that embody quality and distinction.</p>
 
-                        <Link href="#" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
+                        <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
                     
                     </div>
 
@@ -49,14 +49,14 @@ export default function innovation(){
 
                         <div data-aos="fade-right">
                              
-                            <h2 className="wht_cmmn_tit">Where Ideas Come to Life</h2>
+                            <h2 className="wht_cmmn_tit">Where Brands Explore What’s Next in Beauty.</h2>
                             
                             <p className="wht_txt">
-                            Our Mumbai showroom serves as a collaborative space where customers can explore beauty concepts, packaging directions and formulation possibilities.<br /><br />
-                            It creates an environment for brands and our teams to come together, exchange ideas and discover new opportunities across beauty and personal care.
+                            Our Mumbai showroom serves as a space for beauty discovery, showcasing refined packaging concepts, elevated finishes, and distinctive formats for your next launch.<br /><br />
+Experience our collection firsthand, explore refined packaging possibilities with our team, and shape your next beauty launch with a distinct sense of identity.
                             </p>
 
-                            <Link href="#" className="common_btn"> <span>Request a Showroom Visit</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
+                            
 
                         </div>
 

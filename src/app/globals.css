@@ -190,7 +190,7 @@ h2.slider_caption, h1.bnr_titl {
   color: #000;
 }
 .slider_section .carousel-item p{
-  width: 70%;
+  width: 90%;
 }
 .slider_section .carousel-control-prev, .slider_section .carousel-control-next {
   position: absolute;
@@ -264,7 +264,7 @@ h2.slider_caption, h1.bnr_titl {
   left: -290px;
 }
 .main_logo, .slider_bnr img{
-  width: 100%;
+  width: 90%;
 }
 .slider_bnr img {
    height: auto;
@@ -378,7 +378,7 @@ h2.slider_caption, h1.bnr_titl {
   position: relative;
   overflow: hidden;
 }
-.product_slider .swipercard h4{
+.product_slider .swipercard a{
    background-color: #2C20D1;
    padding: 15px;
    font-size: 16px;
@@ -398,7 +398,7 @@ h2.slider_caption, h1.bnr_titl {
 .product_slider .swipercard img{
   transition: all .3s;
 }
-.product_slider .swipercard:hover h4 {
+.product_slider .swipercard:hover a{
    background-color: #faaf2b;
 }
 .product_slider .swipercard:hover img{
@@ -597,6 +597,9 @@ footer h4 {
   background-color: transparent;
   border: 1px solid #fff;
   padding: 15px 55px 15px 20px; 
+}
+footer .input_tag input {
+   border-right: none;
 }
 .input_tag button{
   border: none;
@@ -800,28 +803,32 @@ footer h4 {
   position: fixed;
   left: 0px;
   top: 0px;
-  height: 100%;
-  width: 500px;
-  background-color: #2c20d1;
+  height: 0%;
+  /* min-height: 0px; */
+  width: 0px;
+  background-color: #000;
   z-index: 999;
   padding: 20px;
-  background-image: url('/assets/img/flw-img.svg');
+  /* background-image: url('/assets/img/flw-img.svg'); */
   background-position: bottom right;
   background-repeat: no-repeat;
-  transition: all .3s;
-  transform: translateX(-1000px);
+  transition: all .8s ease-in-out;
+  transform: translateX(-1000px) scale(0);
+  /* overflow: hidden; */
+  transform-origin: top left;
 }
 
-.active_popup{
-  transform: translateX(0px);
-
+.mobile_menu.active_popup{
+  transform: translateX(0px) scale(1);
+  width: 500px;
+  height: 85%;
 }
 
 
 
 .mobile_nav_links ul li a{ 
-  font-size: 34px;
-  line-height: 42px;
+  font-size: 56px;
+  line-height: 64px;
   font-weight: 300;
   color: #fff;
 }

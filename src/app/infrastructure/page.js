@@ -54,14 +54,14 @@ export default function infrastructure() {
 
                     <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-5" data-aos="fade-right">
 
-                        <h1 className={`bnr_titl ${styles.clr_wht}`}>Building the Future of Beauty Packaging in India.</h1>
+                        <h1 className={`bnr_titl ${styles.clr_wht}`}>The Future of Beauty Packaging, Built in India. </h1>
 
                         <p className={styles.clr_wht}>
-                           kdc/one Clarion Beauty is developing a new greenfield manufacturing facility in Bhilad, Gujarat, created to bring premium beauty packaging capabilities closer to brands in India.<br /><br />
-                           Designed around advanced packaging technologies, global engineering expertise and local manufacturing strength, the facility represents the next step in our vision to create world-class beauty solutions from India.
+                        Our new Greenfield facility in Bhilad, Gujarat, will bring injection moulding, metallisation and advanced decoration capabilities to India’s beauty packaging industry.<br /><br />
+                        With screen printing and hot foil stamping, the facility will support premium cosmetic packaging through specialised manufacturing processes and versatile decorative finishes.
                         </p>
 
-                        <Link href="#" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link>
+                        <Link href="/contact-us" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link>
                     
                     </div>
 
@@ -89,7 +89,7 @@ export default function infrastructure() {
 
                    <div className="col-xxl-6">
 
-                       <h2 className="blk_cmmn_tit" data-aos="fade-right">A New <br /> Manufacturing Platform for Beauty</h2>
+                       <h2 className="blk_cmmn_tit" data-aos="fade-right">A New Beauty Manufacturing Platform in India. </h2>
 
                    </div>
 
@@ -111,8 +111,8 @@ export default function infrastructure() {
                         <div className={styles.mnft_cnt}>
 
                             <p data-aos="fade-up">
-                                The Bhilad facility is being developed as a dedicated beauty packaging manufacturing unit with a focus on premium cosmetic and personal care packaging.<br /><br />
-                                The new unit is planned to support advanced manufacturing and decoration processes while drawing on the packaging design and engineering expertise of the wider kdc/one and HCT ecosystem.
+                            The new Bhilad facility strengthens India’s beauty packaging manufacturing base, adding specialised capabilities for cosmetic components and high-quality surface decoration.<br /><br />
+By integrating injection moulding, metallisation, screen printing and hot foil stamping, it will support packaging manufacturers and beauty brands with local production capabilities across component manufacturing, finishing and brand application.
                             </p>
 
                              <div className={styles.mnft_cuntr}>
@@ -161,7 +161,7 @@ export default function infrastructure() {
 
         </section>
 
-        <section className={`common_spc ecru_wht pe-0 ps-0`}>
+        <section className={`common_spc ecru_wht pe-0 ps-0`} id="capability">
 
            <div className="container">
 
@@ -193,11 +193,13 @@ export default function infrastructure() {
  
                   <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-6">
 
-                      <h2 className="blk_cmmn_tit">Lorem ipsum dolor<br /> sit consectetur</h2>
+                      <h2 className="blk_cmmn_tit">Building Beauty with Responsibility in Mind </h2>
 
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.<br /><br />
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.</p>
+                      As our Bhilad facility takes shape, we are building on the sustainability commitments and responsible business practices of our parent companies, kdc/one and Clarion Group. Their established approaches to environmental responsibility, governance and community development provide a foundation as we work towards defining our own priorities for responsible manufacturing and packaging. <br /> <br />
+
+Our approach will continue to evolve as the facility develops. In the meantime, we are drawing on our parent companies’ experience to inform our approach to responsible manufacturing and packaging.
+</p>
 
                   </div>
                   <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-5">

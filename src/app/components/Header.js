@@ -62,7 +62,7 @@ export default function Header(){
                      <line y1="7.5" x2="32" y2="7.5" stroke="#2C20D1"/>
                   </svg>
 
-                  <p>Menuu</p>
+                  <p>Menu</p>
 
                   </div>
 
@@ -84,7 +84,7 @@ export default function Header(){
 
                   <div className="d-flex justify-content-end">
 
-                   <Link href="#" className="common_btn"> <span>Start a Project</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
+                   <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
 
                   </div>
 
@@ -106,27 +106,31 @@ export default function Header(){
             <div className="mobile_nav_links">
 
 
-                  <div className="mobile_menu_logo">
+                  {/* <div className="mobile_menu_logo">
 
 
                      <Image src="/assets/img/main_logo.svg" alt="Logo" width={360} height={101}/>
 
 
-                  </div>
+                  </div> */}
 
                      
                   <ul>
 
-                     <li><Link href="/">Home</Link></li>
-                     <li><Link href="about">About Us</Link></li>
-                     <li><Link href="innovation">Innovation</Link></li>
-                     <li><Link href="infrastructure">Infrastructure</Link></li>
-                     <li><Link href="insights">Insights</Link></li>
-                     <li><Link href="contact">Contact Us</Link></li>
+                     <li><Link href="/" onClick={() => setIsopen(false)}>Home</Link></li>
+                     <li><Link href="/about" onClick={() => setIsopen(false)}>About Us</Link></li>
+                     <li><Link href="/innovation" onClick={() => setIsopen(false)}>Innovation</Link></li>
+                     <li><Link href="/products" onClick={() => setIsopen(false)}>Products</Link></li>
+                     <li><Link href="/infrastructure" onClick={() => setIsopen(false)}>Infrastructure</Link></li>
+                     <li><Link href="/contact-us" onClick={() => setIsopen(false)}>Contact Us</Link></li>
 
                   </ul>
 
-                  <div className="menu_close_btn" onClick={() => setIsopen(false)}>
+                  <div className="menu_close_btn" onClick={() => {
+                   
+                   setIsopen(false);
+
+                  }}>
 
                      <Image src="/assets/img/close_icn.png" width={30} height={30} alt=""/>
 

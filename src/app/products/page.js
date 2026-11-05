@@ -60,11 +60,11 @@ export default function products(){
 
                        <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-4" data-aos="fade-right">
 
-                         <h1 className="bnr_titl">Beauty Solutions, From Formula to Pack</h1>
+                         <h1 className="bnr_titl">Formulation. Packaging. Beauty. Connected.</h1>
 
-                         <p>At kdc/one Clarion Beauty, we bring together global formulation expertise, premium packaging innovation and deep Indian manufacturing knowledge to support beauty and personal care brands with solutions designed for today’s market.</p>
+                         <p>We bring together cosmetic formulation, texture development, packaging innovation, and manufacturing expertise to create skincare, colour cosmetics, and personal care products tailored to your brand’s vision.</p>
 
-                         <Link href="#" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
+                         <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
                       
                        </div>
 
@@ -177,10 +177,10 @@ export default function products(){
                       </div>
 
                 </div>
-
+ 
             </div>
 
-         </section>
+         </section> 
 
           <section className={`common_spc ${styles.get_in_touch} pt-0`}>
 
@@ -205,9 +205,9 @@ export default function products(){
 
                               <input type="text" placeholder="Enter your full name" />
 
-                              <input type="text" placeholder="Enter your designation" />
-
                               <input type="text" placeholder="Enter your company name" />
+
+                              <input type="text" placeholder="Enter your designation" />
 
                               <input type="text" placeholder="Enter your email address" />
 
@@ -215,11 +215,11 @@ export default function products(){
 
                               <select>
                                    
-                                   <option>--Select the product categories--</option>
-                                   <option value="test">Test</option>
-                                   <option value="test">Test</option>
-                                   <option value="test">Test</option>
-                                   <option value="test">Test</option>
+                                   <option>--Select the product--</option>
+                                   <option value="Skincare">Skincare</option>
+                                   <option value="Haircare">Haircare</option>
+                                   <option value="Sun Protection">Sun Protection</option>
+                                   
 
                               </select>
 
