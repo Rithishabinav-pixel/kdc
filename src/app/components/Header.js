@@ -62,7 +62,7 @@ export default function Header(){
                      <line y1="7.5" x2="32" y2="7.5" stroke="#2C20D1"/>
                   </svg>
 
-                  <p>Menu</p>
+                  <p>Menuu</p>
 
                   </div>
 
