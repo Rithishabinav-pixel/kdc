@@ -1,0 +1,81 @@
+.frm_titl {
+    color: #000;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.form_crd form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+.form_crd form input, .form_crd form select, .form_crd form textarea{
+    width: 100%;
+    border: 1px solid #595B5D;
+    padding: 10px;
+    outline: none;
+}
+.form_crd form textarea{ 
+    resize: none;
+    border: 1px solid #595B5D;
+    height: 150px;
+}
+.social_info h3{
+    color: #2C20D1;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 200;
+    padding: 20px 0px 10px 0px;
+}
+.cont_hro {
+    padding: 230px 0px 120px 0px;
+}
+.addr_txt {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.addr_txt a, .addr_txt p{ 
+    color: #595B5D;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: all .3s;
+}
+.cont_hro p{
+    color: #595B5D;
+    width: 70%;
+}
+.addr_txt a:hover{ 
+    color: #2c20d1;
+}
+.social_icn li{
+    list-style: none;
+}
+.social_icn ul{
+   padding: 0px;
+   display: flex;
+   gap: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .cont_hro {
+        padding: 200px 0px 120px 0px;
+    }
+}
+@media screen and (max-width: 991px){
+    .frm_titl {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cont_hro {
+        padding: 180px 0px 120px 0px;
+    }
+}

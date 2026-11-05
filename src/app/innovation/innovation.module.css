@@ -1,0 +1,55 @@
+.innovtn_hro {
+    background-image: url('/assets/img/innovation_bnr.webp');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center right;
+    padding: 220px 0 120px 0px;
+    position: relative;
+}
+.idea_lfe {
+    background-image: url('/assets/img/idea-lf-bnr.webp');
+    background-position: center center;
+    background-size: cover;
+}
+.idea_crd {
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    gap: 12px;
+}
+.idea_crd_img, .map_crd img{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .innovtn_hro::after{
+        position: absolute;
+        background-color: #000;
+        opacity: 0.4;
+        left: 0px;
+        top: 0px;
+        content: '';
+        width: 100%;
+        height: 100%;
+    }
+    .innovtn_hro h1, .innovtn_hro p{
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .innovtn_hro {
+      background-size: 100%;
+      background-position: center center;
+      padding: 170px 0px 80px 0px;
+    }
+    .idea_crd {
+        width: 100%;
+        margin-top: 35px;
+    }
+}
