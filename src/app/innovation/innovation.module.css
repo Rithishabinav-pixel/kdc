@@ -20,6 +20,9 @@
     margin: 0 auto;
     gap: 12px;
 }
+.idea_crd{
+   width: 100%;
+}
 .idea_crd_img img {
     padding-top: 0px !important;
 }
@@ -51,9 +54,12 @@
 .idea_crd a:hover {
     color: #faaf2b;
 }
+.innovation_mb_img{ 
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
-    .innovtn_hro::after{
+    /* .innovtn_hro::after{
         position: absolute;
         background-color: #000;
         opacity: 0.4;
@@ -61,10 +67,16 @@
         top: 0px;
         content: '';
         width: 100%;
-        height: 100%;
-    }
+        height: 100%; 
+    } */
     .innovtn_hro h1, .innovtn_hro p{
-        color: #fff;
+        color: #000;
+    }
+    .idea_main_crd {
+        width: 100%;
+    }
+    .idea_crd {
+        margin-top: 0px;
     }
 }
 
@@ -72,10 +84,19 @@
     .innovtn_hro {
       background-size: 100%;
       background-position: center center;
-      padding: 170px 0px 80px 0px;
+      padding: 120px 0px 60px 0px;
     }
     .idea_crd {
         width: 100%;
-        margin-top: 35px;
+    }
+    .innovation_mb_img{
+        display: block;
+    }
+    .innovation_mb_img img{
+        width: 100%;
+        height: auto;
+    }
+    .innovtn_hro {
+        background-image: none; 
     }
 }

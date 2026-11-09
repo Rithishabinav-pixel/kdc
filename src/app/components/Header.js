@@ -67,9 +67,9 @@ export default function Header(){
                   </div>
 
                </div>
-               <div className="col-5 col-md-4 col-lg-6 p-0">
+               <div className="col-7 col-md-4 col-lg-6 p-0">
                 
-                   <div className="logo_img text-center">
+                   <div className="logo_img text-start">
 
                      <Link href="/">
 
@@ -82,7 +82,7 @@ export default function Header(){
                </div>
                <div className="col-4 col-md-3 col-lg-3 p-0">
 
-                  <div className="d-flex justify-content-end">
+                  <div className="justify-content-end mb-none">
 
                    <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
 
@@ -126,7 +126,10 @@ export default function Header(){
 
                   </ul>
 
-                  <div className="menu_close_btn" onClick={() => {
+
+            </div>
+
+            <div className="menu_close_btn" onClick={() => {
                    
                    setIsopen(false);
 
@@ -135,9 +138,6 @@ export default function Header(){
                      <Image src="/assets/img/close_icn.png" width={30} height={30} alt=""/>
 
                   </div>
-
-
-            </div>
 
 
          </div>

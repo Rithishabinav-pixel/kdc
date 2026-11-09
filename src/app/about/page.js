@@ -8,6 +8,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from "gsap/SplitText";
+import GsapTitle from "../components/GsapTitle";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -34,7 +35,7 @@ export default function About() {
    useGSAP(() => {
 
     const split = new SplitText(scrollTitleOne.current, {
-      type: "chars",
+      type: "words",
     });
 
     const mm = gsap.matchMedia();
@@ -43,7 +44,7 @@ export default function About() {
 
       gsap.fromTo(
         // scrollTitleOne.current,
-        split.chars,
+        split.words,
         { opacity: 0.05},
         {
           opacity: 1,
@@ -73,14 +74,14 @@ export default function About() {
     gsap.registerPlugin(ScrollTrigger, SplitText);
 
     const split = new SplitText(scrollTitleTwo.current, {
-      type: "chars",
+      type: "words",
     });
 
     mm.add("(min-width: 1200px)", () => {
 
       gsap.fromTo(
 
-        split.chars,
+        split.words,
         {
           opacity:0.05
         },
@@ -137,15 +138,15 @@ export default function About() {
 
                     <h1 className={`bnr_titl ${styles.clr_wht}`}>
 
-                    Crafting <br />The Next Generation of Beauty in India.
+                    Two Legacies. One Future in Beauty.
 
                     </h1>
                     
 
-                    <p className="txt mt-3">
+                    <p className="txt mt-3 width_cstom">
 
-                    kdc/one Clarion Beauty brings together global beauty innovation and deep Asian market insight. By uniting international expertise with local market knowledge, we help beauty and personal care brands develop distinctive, market-relevant products. <br /> <br />
-                   Together, we create new possibilities for beauty through integrated capabilities and shared expertise.
+                    kdc/one and Clarion have joined forces to bring together international innovation, packaging excellence and established Indian manufacturing expertise. <br /> <br />
+                    Our partnership connects formulation, product development, design and manufacturing capabilities, creating new opportunities for beauty and personal care brands seeking distinctive products, dependable quality and scalable solutions.
 
                     </p>
 
@@ -180,11 +181,11 @@ export default function About() {
  
                 <div className="col-lg-12 col-xl-6" data-aos="fade-up">
 
-                   <h2 className="blk_cmmn_tit">
-
+                <GsapTitle className="blk_cmmn_tit">
+            
                    Two Strengths. <br />One Beauty Partner.
 
-                   </h2>
+                </GsapTitle>
 
                    <p className={styles.strgt_txt}>
                   
@@ -252,11 +253,12 @@ export default function About() {
 
               <div className="col-lg-12 col-xl-6" data-aos="fade-up">
 
-                  <h2 className="wht_cmmn_tit">
+              <GsapTitle className="wht_cmmn_tit">
+            
+                Why Beauty Brands Partner With Us.
 
-                  Why Beauty Brands Partner With Us. 
+              </GsapTitle>
 
-                  </h2>
 
                   <p className={`wht_txt ${styles.wht_txt}`}>
                 
@@ -379,13 +381,17 @@ export default function About() {
       
       <section className={`common_spc ${styles.idea_section} ${styles.gry_wht_bg}`}>
    
-         <div className="container">
+         <div className="container p-0">
 
             <div className="row justify-content-center">
 
                <div className="col-sm-12 col-md-10 col-lg-7 col-xl-7">
 
-                     <h2 className="blk_cmmn_tit text-center">Turning Ideas Into Market Ready Beauty </h2>
+               <GsapTitle className="blk_cmmn_tit text-center">
+            
+               Turning Ideas Into Market Ready Beauty.
+
+                </GsapTitle>
 
                </div>
 

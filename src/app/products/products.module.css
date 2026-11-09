@@ -5,7 +5,7 @@
     background-size: cover;
     background-position: bottom;
     position: relative;
-}
+} 
 .prdt_hro p{
     color: #595B5D;
     width: 72%;
@@ -18,7 +18,7 @@
     flex-direction: column;
     width: fit-content;
     margin-top: 330px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .prdt_hro_crd a{
@@ -81,6 +81,7 @@ h2.pac_for_txt {
     border: 1px solid #595B5D;
     padding: 10px;
     outline: none;
+    background-color: #fff;
 }
 .form_crd form textarea{ 
     resize: none;
@@ -102,6 +103,9 @@ h2.pac_for_txt {
 }
 .get_in_touch p{
     width: 75%;
+}
+.prdt_mb_img{
+    display: none;
 }
 
 @media screen and (max-width: 1600px){
@@ -147,7 +151,7 @@ h2.pac_for_txt {
     .prdt_hro{
         position: relative;
     }
-    .prdt_hro::after{
+    /* .prdt_hro::after{
         position: absolute;
         background-color: #000;
         opacity: 0.5;
@@ -156,9 +160,9 @@ h2.pac_for_txt {
         content: '';
         width: 100%;
         height: 100%;
-    }
+    } */
     .prdt_hro h1, .prdt_hro p{
-        color: #fff;
+        color: #000;
     }
     .prdt_care h2{
         text-indent: 0px;
@@ -178,7 +182,7 @@ h2.pac_for_txt {
         margin-top: 0px;
     }
     h2.pac_for_txt {
-        padding-top: 60px;
+        padding-top: 30px;
     }
 }
 
@@ -189,6 +193,31 @@ h2.pac_for_txt {
     } 
     h2.pac_for_txt {
         padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .prdt_mb_img img{
+        width: 100%;
+        height: auto;
+    }
+    .prdt_hro {
+        background-image: url(/assets/img/product_bnr-mb-b.webp);
+    }
+    .prdt_mb_img{
+        display: block;
+    }
+    .prdt_hro_crd {
+        display: none;
+    }
+    .prdt_hro{
+        padding: 120px 0px 0px 0px;
+    }
+    .prdt_hro .d-flex.justify-content-center{
+        display: block;
+    }
+    .get_in_touch {
+        margin-top: -30px;
     }
 }
 

@@ -67,8 +67,9 @@ h1.clr_wht, p.clr_wht {
 
 @media screen and (max-width: 1200px){
     .cntr_crd p{
-        font-size: 22px;
-        line-height: 30px; 
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 20px; 
     }    
 }
 
@@ -76,7 +77,7 @@ h1.clr_wht, p.clr_wht {
     .infrst_hro {
       background-size: 100%;
       background-position: center center;
-      padding: 170px 0px 80px 0px;
+      padding: 120px 0px 80px 0px;
     }
     .infrst_hro_img{
       margin-top: 30px;

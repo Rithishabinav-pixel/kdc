@@ -6,6 +6,7 @@ import styles from "./infrastructure.module.css";
 import Image from "next/image";
 import CountUp from "react-countup";
 import Capabilities from "../components/Capabilities";
+import GsapTitle from "../components/GsapTitle";
 
 const capabilitiesData = [
     {
@@ -101,7 +102,13 @@ export default function infrastructure() {
 
                    <div className="col-xxl-6">
 
-                       <h2 className="blk_cmmn_tit" data-aos="fade-right">A New Beauty Manufacturing Platform in India. </h2>
+                   <GsapTitle className="blk_cmmn_tit">
+            
+                   A New Beauty Manufacturing Platform in India. 
+
+                    </GsapTitle>
+
+                     
 
                    </div>
 
@@ -199,13 +206,19 @@ By integrating injection moulding, metallisation, screen printing and hot foil s
 
         <section className={`common_spc pt-0 ${styles.cmn_section}`}>
 
-          <div className="container">
+          <div className="container p-0">
 
               <div className="row align-items-center justify-content-between">
  
                   <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-6" data-aos="fade-right">
 
-                      <h2 className="blk_cmmn_tit">Building Beauty with Responsibility in Mind </h2>
+                    <GsapTitle className="blk_cmmn_tit">
+            
+                    Building Beauty with Responsibility in Mind
+
+                    </GsapTitle>
+
+                     
 
                       <p>
                       As our Bhilad facility takes shape, we are building on the sustainability commitments and responsible business practices of our parent companies, kdc/one and Clarion Group. Their established approaches to environmental responsibility, governance and community development provide a foundation as we work towards defining our own priorities for responsible manufacturing and packaging. <br /> <br />

@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center center;
     position: relative; 
-    padding: 180px 0px; 
+    padding: 140px 0px; 
 }
 .cametgthr{
     background-image: url(/assets/img/bb-bg.webp);
@@ -163,8 +163,8 @@ h1.clr_wht, .clr_wht{
     width: 100%;
 }
 .small_txt{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
     color: #000000;
     font-weight: 400;
 }
@@ -258,6 +258,13 @@ h1.clr_wht, .clr_wht{
 
 
 @media screen and (max-width: 991px) {
+    .come_crd { 
+        margin-bottom: 35px;
+    }
+    .vision_mission {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
     .abt_hero {  
         padding: 135px 0px 80px 0px;
     }
@@ -278,6 +285,10 @@ h1.clr_wht, .clr_wht{
     .top_vs_spc {
         padding-top: 220px;
     }
+    .cametgthr { 
+        background-repeat: repeat;
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -286,7 +297,7 @@ h1.clr_wht, .clr_wht{
         height: 300px;
     }
     .vision_mission { 
-        background-position: 100% 62%;
+        background-position: 100% 45%;
         background-size: 100%;
     }
     .idea_section .idea_prds {

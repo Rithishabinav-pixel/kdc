@@ -16,7 +16,8 @@ export default function products(){
                 <div className="row justify-content-between">
 
                     <div className="col-md-12 col-lg-6 col-xl-6" data-aos="fade-right">
-
+                        
+                        
                         <h2 className="blk_cmmn_tit">Let’s Bring Your Beauty Vision To Life </h2>
 
                          <p>Whether you’re developing a new beauty product or refining an existing range, we bring formulation, packaging and manufacturing expertise to help move your project forward.<br /> <br />
@@ -31,7 +32,7 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                     <Image src="/assets/img/call.svg" alt="" width={24} height={24} />  
 
-                                    <Link href="tel:04447193023">044-47193023</Link>
+                                    <Link href="tel:912269360666">+91-22-6936 0666</Link>
 
                                </div>
 
@@ -47,7 +48,7 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                     <Image src="/assets/img/location.svg" alt="" width={24} height={24} />  
 
-                                    <p>801, 8th Floor, Filix Towers, Above HDFC Bank, LBS Marg,<br /> Bhandup West, Mumbai - 400 078.</p>
+                                    <p>801, Filix Condominium,<br />L B S Marg, Bhandup (West),<br /> Mumbai - 400 078</p>
 
                                </div>
 

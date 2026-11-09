@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function Footer(){
 
     
@@ -132,16 +133,16 @@ export default function Footer(){
 
                 <div className="row align-items-center justify-content-between mt-2">
 
-                    <div className="col-lg-4 col-xl-4">
+                    <div className="col-lg-4 col-xl-5">
 
-                        <p className="cpy_txt">kdc/one Clarion © . All rights reserved | Designed By <Link href="https://www.pixel-studios.com/" target="_blank">Pixel Studios </Link></p>
+                        <p className="cpy_txt text-start">kdc/one Clarion © 2026. All rights reserved | Designed By <Link href="https://www.pixel-studios.com/" target="_blank">Pixel Studios </Link></p>
 
                     </div>
                     <div className="col-lg-3 col-xl-3">
 
                         <ul className="social_link">
-                            <li><Link href="" ><Image src="/assets/img/facebook.svg" alt="" width={20} height={20}/> </Link></li>
-                            <li><Link href="" ><Image src="/assets/img/twitter.svg" alt="" width={14} height={12}/> </Link></li>
+                            {/* <li><Link href="" ><Image src="/assets/img/facebook.svg" alt="" width={20} height={20}/> </Link></li> */}
+                            {/* <li><Link href="" ><Image src="/assets/img/twitter.svg" alt="" width={14} height={12}/> </Link></li> */}
                             <li><Link href="" > <Image src="/assets/img/instagram-icon.svg" alt="" width={18} height={18}/></Link></li>
                             <li><Link href="" > <Image src="/assets/img/Linked-in.svg" alt="" width={18} height={18}/></Link></li>
                         </ul>

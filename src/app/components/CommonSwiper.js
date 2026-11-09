@@ -24,7 +24,7 @@ export default function CommonSwiper({slides}) {
       pagination={{
         clickable: true,
       }}
-      navigation={true}
+      navigation={false}
       breakpoints={{
         527: {
           slidesPerView: 2,

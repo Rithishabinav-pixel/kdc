@@ -593,18 +593,33 @@ footer h4 {
 .tp_bt_spc{
   padding: 50px 0px;
 }
+input::placeholder, select option, textarea::placeholder, .select {
+  color: #000;
+  opacity: 0.5; /* Ensures the exact color displays in Firefox */
+}
 .input_tag input{
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #fff;
   padding: 15px 55px 15px 20px; 
+  color: #fff;
+}
+input[type=text]:focus, textarea:focus  {
+  color: #000;
 }
 footer .input_tag input {
    border-right: none;
+   border: none;
+   outline: none;
+   width: 100%;
 }
 .input_tag button{
   border: none;
   box-shadow: none;
   align-items: center;
+  border: 1px solid #2C20D1;
+}
+.input_tag button:hover {
+  border: 1px solid #faaf2b;
 }
 .input_tag{
   display: flex;
@@ -809,7 +824,7 @@ footer .input_tag input {
 }
 .mobile_nav_links ul li{
   list-style-type: none;
-  padding-bottom: 16px;
+  padding-bottom: 10px;
 }
 .mobile_menu {
   position: fixed;
@@ -857,7 +872,30 @@ footer .input_tag input {
     padding: 20px;
     position: absolute;
     top: 100px;
-    right: -50px;
+    right: -30px;
+}
+
+.error-page {
+  padding: 150px 0 100px 0px;
+}
+.error-page h2{
+  font-size: 150px;
+  line-height: 158px;
+  color: #2c20d1;
+}
+.error-page h3 {
+  color: #59595c;
+  font-size: 36px;
+  line-height: 44px;
+}
+.error-page p {
+  padding: 10px 0px;
+}
+.mb-none {
+  display: flex;
+}
+.width_cstom {
+  width: 75%;
 }
 
 
@@ -888,6 +926,13 @@ footer .input_tag input {
     padding: 0px 20px;
   }
 } */
+
+@media (min-width: 1580px) and (max-width: 1600px){
+  section, nav{
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+  }
+}
 
 @media screen and (max-width: 1580px) {
   div.container {
@@ -925,6 +970,9 @@ footer .input_tag input {
 }
 
 @media screen and (max-width: 1400px){
+  .product_slider .swiper {
+    padding-top: 0px;
+  }
   h2.slider_caption, h1.bnr_titl { 
     font-size: 84px;
     line-height: 92px;
@@ -1134,11 +1182,43 @@ footer .input_tag input {
  .package_sliders {
     padding-bottom: 30px;
   }
+  .error-page h2 {
+    font-size: 90px;
+    line-height: 98px;
+ }
+ .error-page {
+  padding: 120px 0px 80px 0px;
+}
+.error-page h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h2 br{
+  display: none;
+}
+.global_thiking h2{
+  margin-bottom: 0px;
+  text-align: start !important;
+}
 }
 
 @media screen and (max-width: 768px){
+  header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 0 10px 5px #0000000d;
+    background-color: #fff;
+    height: 95px;
+  } 
+  header.transparent{
+     background-color: #2c20d1;
+  }
+  nav {
+    padding: 0px;
+  }
   .slider_section {
-    padding-top: 170px;
+    padding-top: 130px;
   }
   .slider_section .carousel-control-prev, .slider_section .carousel-control-next {
     bottom: 10px;
@@ -1193,7 +1273,7 @@ footer .input_tag input {
     right: -40px;
   }
   .mobile_menu_logo img{
-    width: 85%;
+    width: 65%;
   }
   .mobile_menu  {
     width: 350px;
@@ -1209,8 +1289,15 @@ footer .input_tag input {
   .mobile_menu.active_popup {
     width: 340px;
   }
-  h1 br{
+  h1 br, .mb-none {
     display: none;
+  }
+  .main_logo{
+    width: 75%;
+    max-width: 250px;
+  }
+  .width_cstom {
+    width: 100%;
   }
 }
 
@@ -1222,8 +1309,8 @@ footer .input_tag input {
     justify-content: center;
   }
   .wht_cmmn_tit, .blk_cmmn_tit {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .mbl_vw{
     display: block;
@@ -1231,5 +1318,18 @@ footer .input_tag input {
   .common_btn, .wht_btn, .input_tag button {
     gap: 5px;
   }
+  .slider_section {
+    padding-top: 120px;
+  }
 
+}
+
+@media screen and (max-height: 600px) {
+  .mobile_nav_links ul li a {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .mobile_nav_links ul {
+    margin-top: 30px;
+  }
 }

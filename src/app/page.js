@@ -9,6 +9,7 @@ import Insights from "./components/Insights";
 import PackageSwiper from "./components/PackageSwiper";
 import { usePathname } from "next/navigation";
 import Capabilities from "./components/Capabilities";
+import GsapTitle from "./components/GsapTitle";
 
 
 const ProductSlides = [
@@ -136,9 +137,9 @@ export default function Home() {
 
                        <h2 className="slider_caption">Beauty Innovation, Brought Closer to India.</h2>
 
-                       <p>From sophisticated formulations to precision engineered cosmetics packaging, we unite product development and manufacturing expertise to help beauty brands create market-ready products for asian Markets.</p>
+                       <p>From sophisticated formulations to precision engineered cosmetics packaging, we unite product development and manufacturing expertise to help beauty brands create market-ready products for Asian markets.</p>
 
-                       <Link href="/contact-us" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+                       <Link href="/about" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
                     </div>
 
@@ -148,7 +149,7 @@ export default function Home() {
 
                          <p>At kdc/one Clarion, every small detail shapes the final product. We bring formulation science, packaging engineering and manufacturing expertise together to create beauty solutions with purpose.</p>
 
-                         <Link href="/products" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+                         <Link href="/products" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
                     </div>
 
@@ -158,7 +159,7 @@ export default function Home() {
 
                            <p>We unite advanced formulation expertise, refined packaging design and manufacturing capabilities to help beauty brands bring distinctive, market relevant products to life.</p>
  
-                           <Link href="/infrastructure" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+                           <Link href="/infrastructure" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
                     </div>
 
@@ -219,10 +220,16 @@ export default function Home() {
                <div className="col-lg-5">
 
                  <div data-aos="fade-up">
-  
-                       <h2 className="wht_cmmn_tit">Global Expertise.<br /> Deep Indian Market Insight. </h2>
 
-                       <Link href="/about" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+                      <GsapTitle className="wht_cmmn_tit">
+            
+                      Global Expertise.<br /> Deep Indian Market Insight. 
+
+                      </GsapTitle>
+  
+                      
+
+                       <Link href="/about" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
                  </div>
 
@@ -261,13 +268,17 @@ export default function Home() {
 
     <section className="counterSection common_spc" >
 
-     <div className="container">
+     <div className="container p-0">
 
        <div className="row justify-content-center" data-aos="fade-up">
 
           <div className="col-sm-12 col-md-10 col-lg-8">
 
-              <h2 className="blk_cmmn_tit text-center">The Strength Behind Every Beauty Solution.</h2>
+              <GsapTitle className="blk_cmmn_tit text-center">
+      
+                The Strength Behind Every Beauty Solution.
+
+              </GsapTitle>
 
           </div>
 
@@ -348,9 +359,15 @@ export default function Home() {
 
       <div className="row justify-content-center" data-aos="fade-up">
 
-          <div className="col-sm-12 col-md-10 col-lg-7">
+          <div className="col-sm-12 col-md-12 col-lg-8 col-xl-7 p-0">
 
-              <h2 className="blk_cmmn_tit text-center">Capabilities That Bring Beauty Packaging to Life. </h2>
+            <GsapTitle className="text-center blk_cmmn_tit">
+  
+              Capabilities That Bring Beauty Packaging to Life. 
+
+            </GsapTitle>
+
+              {/* <h2 className="blk_cmmn_tit text-center"></h2> */}
 
           </div>
 
@@ -503,13 +520,18 @@ export default function Home() {
 
           <div className="row justify-content-between">
 
-            <div className="col-lg-5 col-xl-4">
+            <div className="col-lg-5 col-xl-5">
 
               <div data-aos="fade-up">
 
-                    <h2 className="blk_cmmn_tit">R&D That Brings Global Thinking Closer to India. </h2>
+                    <GsapTitle className="blk_cmmn_tit">
+        
+                    R&D That Brings Internatonal Thinking Closer<br /> to Asia. 
+ 
+                   </GsapTitle>
 
-                    <Link href="/infrastructure" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+
+                    <Link href="/infrastructure" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
               </div>
 
@@ -539,11 +561,15 @@ export default function Home() {
 
               <div className="col-sm-12 col-md-10 col-lg-8 p-0">
 
-                  <h2 className="blk_cmmn_tit text-center">Beauty Across Categories, Made With Purpose.</h2>
+              <GsapTitle className="blk_cmmn_tit text-center">
+        
+              Beauty Across Categories, Made With Purpose.
+
+              </GsapTitle>
 
               </div>
 
-          </div>
+          </div> 
 
           <div className="product_slider">
 
@@ -565,13 +591,19 @@ export default function Home() {
 
     <div className="col-sm-12 col-md-10 col-lg-7">
 
-        <h2 className="blk_cmmn_tit text-center">Beauty Packaging, Built for Performance.</h2>
+        <GsapTitle className="blk_cmmn_tit text-center">
+        
+        Beauty Packaging, Built for Performance.
+
+        </GsapTitle>
+
+       
 
         {/* <div className="two_btns">
 
-            <Link href="#" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+            <Link href="#" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
-            <Link href="#" className="wht_btn"> <span>Know more</span> <Image src="/assets/img/blu-arr.svg" alt="Arrow" width={24} height={24}/></Link>
+            <Link href="#" className="wht_btn"> <span>Know More</span> <Image src="/assets/img/blu-arr.svg" alt="Arrow" width={24} height={24}/></Link>
 
         </div> */}
 
@@ -603,20 +635,26 @@ export default function Home() {
 
             <div className="row justify-content-between"> 
 
-               <div className="col-md-10 col-lg-8 col-xl-4">
+               <div className="col-md-10 col-lg-8 col-xl-5">
 
                  <div data-aos="fade-up">
-  
-                       <h2 className="wht_cmmn_tit">Where Quality, Capability and Scale Come Together.</h2>
 
-                        <p className="wht_txt">
+                 <h2 className="wht_cmmn_tit">
+        
+                 Where Quality, Capability and Scalability Come Together.
+
+                  </h2>
+  
+                       
+
+                        <p className="wht_txt width_cstom">
                           
                         Clarion’s blending and filling capabilities combine with kdc/one’s packaging design and engineering expertise through HCT, connecting product development with manufacturing.<br /><br />
-The upcoming Gujarat facility will focus on premium cosmetic and personal care packaging with advanced finishing capabilities, supporting Indian and international beauty brands from development to production.
+                        The upcoming Gujarat facility will focus on premium cosmetic and personal care packaging with advanced finishing capabilities, supporting Indian and international beauty brands from development to production.
                           
                         </p>    
 
-                        <Link href="/innovation" className="common_btn"> <span>Know more</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+                        <Link href="/innovation" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
                   </div>
 
@@ -637,7 +675,13 @@ The upcoming Gujarat facility will focus on premium cosmetic and personal care p
 
               <div className="col-lg-7">
 
-                 <h2 className="blk_cmmn_tit text-center">Why Brands Choose kdc/one Clarion Beauty. </h2>
+              <GsapTitle className="blk_cmmn_tit text-center">
+        
+              Why Brands Choose kdc/one Clarion Beauty. 
+
+              </GsapTitle>
+
+                 
 
                  {/* <div className="d-flex justify-content-center">
 
@@ -649,7 +693,7 @@ The upcoming Gujarat facility will focus on premium cosmetic and personal care p
 
           </div>
 
-          <div className="row mt-5 justify-content-between align-items-end">
+          <div className="row  justify-content-between align-items-end">
 
             <div className="col-lg-12 col-xl-3" data-aos="fade-right">
 
@@ -714,7 +758,7 @@ The upcoming Gujarat facility will focus on premium cosmetic and personal care p
 
                         <div className="glb_crd_cnt">
 
-                            <h4>We Stay Closer to Your Market..</h4>
+                            <h4>We Stay Closer to Your Market.</h4>
 
                             <p>The market, presence and manufacturing capability help support faster collaboration, greater flexibility and a more responsive route to execution.</p>
 

@@ -9,6 +9,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from "gsap/SplitText";
+import GsapTitle from "../components/GsapTitle";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
  
@@ -68,7 +69,7 @@ export default function products(){
                       
                        </div>
 
-                       <div className="col-lg-7 col-xl-7 col-xxl-8 d-flex justify-content-center">
+                       <div className="col-12 col-lg-7 col-xl-7 col-xxl-8 d-flex justify-content-center">
 
                             <div className={styles.prdt_hro_crd}>
 
@@ -77,6 +78,16 @@ export default function products(){
                                 <Link href="#"> <span>Hair Care</span> <Image src="/assets/img/blu-arr.svg" alt="Logo" width={24} height={24} /></Link>
 
                             </div>
+
+                       </div>
+
+                       <div className="col-12 p-0">
+                        
+                       <div className={styles.prdt_mb_img}>
+
+<Image src="/assets/img/product_bnr-mb.webp" width={884} height={540} alt="" />
+
+</div>
 
                        </div>
 
@@ -92,7 +103,7 @@ export default function products(){
 
          <section className={`common_spc ${styles.prdt_care}`}>
 
-            <div className="container">
+            <div className="container p-0">
 
                 <div className="row">
 
@@ -104,7 +115,7 @@ export default function products(){
 
                 </div>
 
-                <div className="row mt-5">
+                <div className="row mt-3">
 
                   {/* <div className="col-xl-4" data-aos="fade-up">
 
@@ -176,7 +187,7 @@ export default function products(){
 
                       </div>
 
-                </div>
+                </div> 
  
             </div>
 
@@ -184,13 +195,18 @@ export default function products(){
 
           <section className={`common_spc ${styles.get_in_touch} pt-0`}>
 
-            <div className="container">
+            <div className="container p-0">
 
                <div className="row justify-content-between">
 
                   <div className="col-xl-6" data-aos="fade-right">
+                    
+                  <GsapTitle className="blk_cmmn_tit">
+            
+                  Let’s Create What’s Next in Beauty
 
-                      <h2 className="blk_cmmn_tit">Let’s Create What’s Next in Beauty</h2>
+                 </GsapTitle>
+
 
                       <p>Whether you are developing a new beauty product, exploring premium packaging, or looking for a partner to support your expansion in India, our team is ready to start the conversation.</p>
 

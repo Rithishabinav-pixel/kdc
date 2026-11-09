@@ -3,6 +3,7 @@
 import Link from "next/link";
 import styles from "./innovation.module.css";
 import Image from "next/image";
+import GsapTitle from "../components/GsapTitle";
 
 
 export default function innovation(){
@@ -29,7 +30,11 @@ export default function innovation(){
 
                     <div className="col-lg-7 col-xl-7 col-xxl-8 d-flex justify-content-center">
 
-                        
+                        <div className={styles.innovation_mb_img}>
+
+                             <Image src="/assets/img/innovation_bnr-mb.webp" width={884} height={540} alt=""/> 
+
+                        </div>
 
                     </div>
 
@@ -41,17 +46,23 @@ export default function innovation(){
 
         <section className={`common_spc ${styles.idea_lfe}`}>
 
-            <div className="container">
+            <div className="container p-0">
 
                 <div className="row justify-content-between">
 
-                    <div className="col-sm-12 col-md-6 col-xl-4">
+                    <div className="col-sm-12 col-md-6 col-xl-5">
 
                         <div data-aos="fade-right">
+
+                        <GsapTitle className="wht_cmmn_tit">
+            
+                        Where Brands Explore What’s Next in Beauty.
+
+                        </GsapTitle>
                              
-                            <h2 className="wht_cmmn_tit">Where Brands Explore What’s Next in Beauty.</h2>
+                           
                             
-                            <p className="wht_txt">
+                            <p className="wht_txt width_cstom">
                             Our Mumbai showroom serves as a space for beauty discovery, showcasing refined packaging concepts, elevated finishes, and distinctive formats for your next launch.<br /><br />
 Experience our collection firsthand, explore refined packaging possibilities with our team, and shape your next beauty launch with a distinct sense of identity.
                             </p>
@@ -89,15 +100,19 @@ Experience our collection firsthand, explore refined packaging possibilities wit
 
         <section className={`common_spc ${styles.map_section}`}>
 
-            <div className="container">
+            <div className="container p-0">
 
                 <div className="row justify-content-center">
 
                     <div className="col-sm-12 col-md-10 col-lg-8 col-xl-7">
 
-                         <h2 className="blk_cmmn_tit text-center" data-aos="fade-up">Connected to Beauty Innovation Worldwide.</h2>
+                      <GsapTitle className="blk_cmmn_tit text-center" data-aos="fade-up">
+            
+                      Connected to Beauty Innovation Worldwide.
 
-                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects brands to HCT by kdc/one’s international network, unlocking a considered selection of packaging concepts, refined finishes, and distinctive formats.</p>
+                        </GsapTitle>
+
+                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects brands to HCT packaging is the group of kdc/one’s international network, unlocking a considered selection of packaging concepts, refined finishes, and distinctive formats.</p>
 
                     </div>
 
