@@ -617,6 +617,7 @@ footer .input_tag input {
   box-shadow: none;
   align-items: center;
   border: 1px solid #2C20D1;
+  white-space: nowrap;
 }
 .input_tag button:hover {
   border: 1px solid #faaf2b;

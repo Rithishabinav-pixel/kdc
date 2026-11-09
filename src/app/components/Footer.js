@@ -56,13 +56,13 @@ export default function Footer(){
                       <h4>Capabilities</h4>        
 
                         <ul className="ftr_links">
-                            <li><Link href="/infrastructure">Injection Moulding</Link></li>
-                            <li><Link href="/infrastructure">Metallisation</Link></li>
-                            <li><Link href="/infrastructure">Screen Printing</Link></li>
-                            <li><Link href="/infrastructure">Hot Foil Stamping</Link></li>
-                            <li><Link href="/infrastructure">Packaging Design and Engineering</Link></li>
-                            <li><Link href="/infrastructure">Formulation Innovation</Link></li>
-                            <li><Link href="/infrastructure">Product Development</Link></li>
+                            <li><Link href="/">Injection Moulding</Link></li>
+                            <li><Link href="/">Metallisation</Link></li>
+                            <li><Link href="/">Screen Printing</Link></li>
+                            <li><Link href="/">Hot Foil Stamping</Link></li>
+                            <li><Link href="/">Packaging Design and Engineering</Link></li>
+                            <li><Link href="/">Formulation Innovation</Link></li>
+                            <li><Link href="/">Product Development</Link></li>
                         </ul>
 
                    </div>
@@ -95,15 +95,15 @@ export default function Footer(){
 
                    <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-4">
 
-                      <h4>Subscribe to Our NewsLetter</h4>
+                      <h4>Stay Ahead of Beauty Innovation</h4>
                        
-                       <p className="text-start pt-0 pb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                       <p className="text-start pt-0 pb-0">Stay informed with the latest beauty industry trends, innovative packaging solutions, product developments, and updates from kdc/one Clarion.</p>
 
                        <div className="input_tag">
  
                            <input type="text" placeholder="Enter your email address"/>
 
-                           <button type="submit">Submit <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
+                           <button type="submit">Subscribe Now <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
 
                        </div>
 
