@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 export default function PackageSwiper({}) {
   return (
     <Swiper
-      modules={[Pagination, Navigation]}
+      modules={[Autoplay]}
       spaceBetween={20}
     //   slidesPerView={1.9}
       centeredSlides={true}

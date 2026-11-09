@@ -62,7 +62,7 @@ export default function products(){
 
                          <h1 className="bnr_titl">Formulation. Packaging. Beauty. Connected.</h1>
 
-                         <p>We bring together cosmetic formulation, texture development, packaging innovation, and manufacturing expertise to create skincare, colour cosmetics, and personal care products tailored to your brand’s vision.</p>
+                         <p>We bring together cosmetic formulation, packaging innovation, and manufacturing expertise to create premium skin care, hair care and sun care protection products tailored to your brand’s vision.</p>
 
                          <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
                       
@@ -172,7 +172,7 @@ export default function products(){
 
                       <div className="col-xl-12">
 
-                          <h2 className={styles.pac_for_txt} data-aos="fade-up">Packaging + Formulation</h2>
+                          <h2 className={styles.pac_for_txt} data-aos="fade-up">Packaging & Formulation</h2>
 
                       </div>
 
@@ -214,14 +214,13 @@ export default function products(){
                               <input type="text" placeholder="Enter your mobile number" />
 
                               <select>
-                                   
-                                   <option>--Select the product--</option>
-                                   <option value="Skincare">Skincare</option>
-                                   <option value="Haircare">Haircare</option>
-                                   <option value="Sun Protection">Sun Protection</option>
-                                   
+                                    
+                                    <option>--Service Required--</option>
+                                    <option value="Formulation">Formulation</option>
+                                    <option value="Packaging">Packaging</option>
+                                
 
-                              </select>
+                                </select>
 
                               <input type="text" placeholder="Country / Location" />
 

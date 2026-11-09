@@ -23,7 +23,7 @@ export default function innovation(){
 
                         <p>Global beauty advancement, shaped by Asian insight. We bring together advanced formulations, elevated aesthetics, and precision manufacturing to create beauty products that embody quality and distinction.</p>
 
-                        <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
+                        {/* <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link> */}
                     
                     </div>
 
@@ -63,13 +63,21 @@ Experience our collection firsthand, explore refined packaging possibilities wit
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-7">
 
-                        <div className={styles.idea_crd} data-aos="fade-up">
+                      <Link href="#" className={styles.idea_main_crd} data-aos="fade-up"> 
 
-                            <Image className={styles.idea_crd_img} src="/assets/img/idea-img.webp" width={456} height={549} alt="" />
+                        <div className={styles.idea_crd}>
 
-                            <Link href="#"> <span>Mumbai Showroom</span> <Image src="/assets/img/blu-arr.svg" alt="Logo" width={24} height={24} /></Link>
+                            <div className={styles.idea_crd_img}>
+                         
+                               <Image src="/assets/img/idea-img.webp" width={456} height={549} alt="" />
+
+                            </div>
+
+                            <span>Mumbai Showroom <Image src="/assets/img/blu-arr.svg" alt="Logo" width={24} height={24} /></span> 
 
                         </div>
+
+                        </Link>
                         
                     </div>
 

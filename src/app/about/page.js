@@ -137,7 +137,7 @@ export default function About() {
 
                     <h1 className={`bnr_titl ${styles.clr_wht}`}>
 
-                    Crafting the Next Generation of Beauty in India.
+                    Crafting <br />The Next Generation of Beauty in India.
 
                     </h1>
                     
@@ -149,7 +149,7 @@ export default function About() {
 
                     </p>
 
-                    <Link href="/contact-us" className="common_btn mt-4"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></Link>
+                    {/* <Link href="/contact-us" className="common_btn mt-4"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></Link> */}
 
                 </div>
 
@@ -275,7 +275,7 @@ export default function About() {
 
                   <div className={styles.come_crd}>
 
-                     <Image src="/assets/img/global-packaging-icn.svg" alt="" width={80} height={80} />
+                     <Image src="/assets/img/global-icn.png" alt="" width={80} height={80} />
 
                      <h4>Global packaging design and engineering expertise</h4>
 
@@ -352,9 +352,9 @@ export default function About() {
 
                <div className="col-xl-12 p-0">
  
-                   <p className={styles.small_txt}>Our Mission</p>
+                  <p className={styles.small_txt}>Our Vision</p>
 
-                   <h2 ref={scrollTitleOne} className={styles.scroll_title}>To empower brands with globally informed, locally relevant beauty solutions spanning formulation, packaging development and scalable manufacturing.</h2>
+                  <h2 ref={scrollTitleTwo}>To shape the future of beauty and personal care in India through globally inspired innovation rooted in local insight.</h2>
 
                </div>
 
@@ -362,9 +362,9 @@ export default function About() {
 
                   <div className={styles.top_vs_spc}>
 
-                      <p className={styles.small_txt}>Our Vision</p>
+                       <p className={styles.small_txt}>Our Mission</p>
 
-                       <h2 ref={scrollTitleTwo}>To shape the future of beauty and personal care in India through globally inspired innovation rooted in local insight.</h2>
+                       <h2 ref={scrollTitleOne} className={styles.scroll_title}>To empower brands with globally informed, locally relevant beauty solutions spanning formulation, packaging development and scalable manufacturing.</h2>
 
                   </div>
  
@@ -450,7 +450,7 @@ export default function About() {
 
                       <Image src="/assets/img/dot-icn.svg" alt="" data-aos="zoom-in" data-aos-delay="400" width={20} height={20} />
                       
-                      <p data-aos="fade-up" data-aos-delay="400">Localisation</p>  
+                      <p data-aos="fade-up" data-aos-delay="400">Customization</p>  
 
                       </div>
 

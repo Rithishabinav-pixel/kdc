@@ -11,7 +11,7 @@ export default function products(){
    
         <section className={`common_spc ${styles.cont_hro}`}>
 
-            <div className="container">
+            <div className="container"> 
 
                 <div className="row justify-content-between">
 
@@ -41,13 +41,13 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                     <Link href="mailto:marketing@kdconeclarion.com">marketing@kdconeclarion.com</Link>
 
-                               </div>
+                               </div> 
 
                                <div className={styles.addr_txt}>
 
                                     <Image src="/assets/img/location.svg" alt="" width={24} height={24} />  
 
-                                    <p>Gr Flr, Crystal Classic, S V Road, Vile Parle West, <br /> Maharashtra - 400056</p>
+                                    <p>801, 8th Floor, Filix Towers, Above HDFC Bank, LBS Marg,<br /> Bhandup West, Mumbai - 400 078.</p>
 
                                </div>
 
@@ -55,8 +55,8 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                   <ul>
 
-                                    <li><Image src="/assets/img/facebook-i.svg" width={20} height={20} alt="" /></li>
-                                    <li><Image src="/assets/img/twitter-i.svg" width={14} height={12} alt=""  /></li>
+                                    {/* <li><Image src="/assets/img/facebook-i.svg" width={20} height={20} alt="" /></li>
+                                    <li><Image src="/assets/img/twitter-i.svg" width={14} height={12} alt=""  /></li> */}
                                     <li><Image src="/assets/img/instagram-icon-i.svg" width={18} height={18} alt=""  /></li>
                                     <li><Image src="/assets/img/Linked-in-i.svg" width={18} height={18} alt=""  /></li>
 
@@ -87,10 +87,9 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                 <select>
                                     
-                                    <option>--Select the product categories--</option>
-                                    <option value="Skincare">Skincare</option>
-                                    <option value="Hair Care">Hair Care</option>
-                                    <option value="Sun Protection">Sun Protection</option>
+                                    <option>--Service Required--</option>
+                                    <option value="Formulation">Formulation</option>
+                                    <option value="Packaging">Packaging</option>
                                 
 
                                 </select>

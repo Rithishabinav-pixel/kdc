@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center center;
     position: relative; 
-    padding: 240px 0px; 
+    padding: 180px 0px; 
 }
 .cametgthr{
     background-image: url(/assets/img/bb-bg.webp);
@@ -87,9 +87,9 @@ h1.clr_wht, .clr_wht{
 .come_crd img {
     transition: all .3s;
 }
-.come_crd:hover img{
+/* .come_crd:hover img{
     transform: scaleX(-1);
-}
+} */
 .idea_section .idea_prds {
     display: flex;
     width: 120%;
@@ -169,8 +169,8 @@ h1.clr_wht, .clr_wht{
     font-weight: 400;
 }
 .vision_mission h2 {
-    font-size: 64px;
-    line-height: 72px;
+    font-size: 60px;
+    line-height: 68px;
     font-weight: 200;
     color: #000;
 }
@@ -198,7 +198,7 @@ h1.clr_wht, .clr_wht{
 
 @media screen and (max-width: 1700px) {
     .abt_hero {  
-        padding: 180px 0px 100px 0px;
+        padding: 160px 0px 100px 0px;
     }
     .idea_section .idea_prds .idea_lst {
         width: 450px;
@@ -259,7 +259,7 @@ h1.clr_wht, .clr_wht{
 
 @media screen and (max-width: 991px) {
     .abt_hero {  
-        padding: 155px 0px 80px 0px;
+        padding: 135px 0px 80px 0px;
     }
     .cametgthr .wht_txt {
         width: 100%;

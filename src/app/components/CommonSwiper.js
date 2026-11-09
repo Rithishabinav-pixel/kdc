@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function CommonSwiper({slides}) {
   return (
     <Swiper
-      modules={[Autoplay, Pagination, Navigation]} 
+      modules={[Autoplay]} 
       spaceBetween={20}
       // slidesPerView={4.5}
       loop={true}

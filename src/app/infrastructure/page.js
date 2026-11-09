@@ -9,35 +9,47 @@ import Capabilities from "../components/Capabilities";
 
 const capabilitiesData = [
     {
-      id: 1,
-      title: "Injection Moulding",
-      description: "Precision moulding capabilities planned for the production of cosmetic packaging components with consistent form, fit and finish.",
-      img: "/assets/img/skin_care_img.webp",
-    },
-    {
-      id: 2,
-      title: "Metallisation", 
-      description: "Metallisation capabilities are planned to support premium metallic finishes that enhance shelf appeal and elevate the overall packaging experience.",
-      img: "/assets/img/color_cosmetics_img.webp",
-    },
-    {
-      id: 3,
-      title: "Screen Printing",
-      description: "Screen printing will support branding, graphics and decorative applications on cosmetic packaging components.",
-      img: "/assets/img/sun_care_img.webp",
-    },
-    {
-      id: 4,
-      title: "Hot Foil Stamping",
-      description: "Hot foil stamping is planned to support premium metallic branding and decorative detailing.",
-      img: "/assets/img/hair_care_img.webp",
-    },
-    {
-        id: 5,
-        title: "Packaging Design & Engineering",
-        description: "Through the wider kdc/one and HCT packaging ecosystem, the partnership brings access to packaging design, development and engineering expertise.",
-        img: "/assets/img/personnal_care_img.webp",
-    },
+        id: 1,
+        title: "Injection Moulding",
+        description: "Precision-engineered packaging components designed to meet the functional and aesthetic requirements of beauty and personal care products.",
+        img: "/assets/img/prd-img-1.webp", 
+      },
+      {
+        id: 2,
+        title: "Metallisation", 
+        description: "Premium metallic finishes that enhance packaging appeal, adding depth, visual distinction and a refined look to beauty products.",
+        img: "/assets/img/prd-img-2.webp",
+      },
+      {
+        id: 3,
+        title: "Screen Printing",
+        description: "Packaging decoration that brings brand identities to life through clear graphics, precise detailing and consistent visual presentation.",
+        img: "/assets/img/prd-img-3.webp",
+      },
+      {
+        id: 4,
+        title: "Hot Foil Stamping",
+        description: "Distinctive foil accents that add a premium finish to cosmetic packaging, enhancing visual appeal through refined metallic detailing.",
+        img: "/assets/img/prd-img-4.webp",
+      },
+      {
+          id: 5,
+          title: "Packaging Design and Engineering",
+          description: "Global design expertise and engineering knowledge come together to develop packaging that balances aesthetics, functionality and manufacturing requirements.",
+          img: "/assets/img/prd-img-5.webp",
+      },
+      {
+        id: 6,
+        title: "Formulation Innovation",
+        description: "Formulation expertise and research capabilities support the development of skincare and haircare products shaped around evolving brand needs and consumer expectations.",
+        img: "/assets/img/prd-img-3.webp",
+      },
+      {
+        id: 7,
+        title: "Product Development",
+        description: "A connected approach to formulation and packaging helps brands translate product concepts into considered solutions, ready to progress towards manufacturing.",
+        img: "/assets/img/prd-img-4.webp",
+      },
 ]
 
 export default function infrastructure() { 
@@ -61,7 +73,7 @@ export default function infrastructure() {
                         With screen printing and hot foil stamping, the facility will support premium cosmetic packaging through specialised manufacturing processes and versatile decorative finishes.
                         </p>
 
-                        <Link href="/contact-us" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link>
+                        {/* <Link href="/contact-us" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link> */}
                     
                     </div>
 
@@ -161,7 +173,7 @@ By integrating injection moulding, metallisation, screen printing and hot foil s
 
         </section>
 
-        <section className={`common_spc ecru_wht pe-0 ps-0`} id="capability">
+        {/* <section className={`common_spc ecru_wht pe-0 ps-0`} id="capability">
 
            <div className="container">
 
@@ -183,15 +195,15 @@ By integrating injection moulding, metallisation, screen printing and hot foil s
 
            </div>
 
-        </section>
+        </section> */}
 
-        <section className={`common_spc ${styles.cmn_section}`}>
+        <section className={`common_spc pt-0 ${styles.cmn_section}`}>
 
           <div className="container">
 
               <div className="row align-items-center justify-content-between">
  
-                  <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-6">
+                  <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-6" data-aos="fade-right">
 
                       <h2 className="blk_cmmn_tit">Building Beauty with Responsibility in Mind </h2>
 
@@ -204,7 +216,7 @@ Our approach will continue to evolve as the facility develops. In the meantime, 
                   </div>
                   <div className="col-sm-12 col-md-12 col-lg-6 col-xxl-5">
 
-                    <div className={styles.slr_img}>
+                    <div className={styles.slr_img} data-aos="fade-up">
 
                        <Image src="/assets/img/solor_img.webp" alt="" width={620} height={620} />
 

@@ -55,12 +55,13 @@ export default function Footer(){
                       <h4>Capabilities</h4>        
 
                         <ul className="ftr_links">
-                            <li><Link href="/infrastructure">Design and Innovation</Link></li>
+                            <li><Link href="/infrastructure">Injection Moulding</Link></li>
+                            <li><Link href="/infrastructure">Metallisation</Link></li>
+                            <li><Link href="/infrastructure">Screen Printing</Link></li>
+                            <li><Link href="/infrastructure">Hot Foil Stamping</Link></li>
+                            <li><Link href="/infrastructure">Packaging Design and Engineering</Link></li>
+                            <li><Link href="/infrastructure">Formulation Innovation</Link></li>
                             <li><Link href="/infrastructure">Product Development</Link></li>
-                            <li><Link href="/infrastructure">Formulation Support</Link></li>
-                            <li><Link href="/infrastructure">Printing</Link></li>
-                            <li><Link href="/infrastructure">Quality Assurance</Link></li>
-                            <li><Link href="/infrastructure">Supply Chain</Link></li>
                         </ul>
 
                    </div>
@@ -86,7 +87,7 @@ export default function Footer(){
                         <ul className="ftr_links">
                             <li><Link href="/products">Skincare</Link></li>
                             <li><Link href="/products">Haircare</Link></li>
-                            <li><Link href="/products">Personal Care</Link></li>
+                            <li><Link href="/products">Sun Protection</Link></li>
                         </ul>
 
                    </div>
@@ -115,7 +116,7 @@ export default function Footer(){
  
                         <div className="ftr_logo text-center">
 
-                          <Image src="/assets/img/ftr-logo.svg" alt="Arrow" width={379} height={105}/>
+                          <Image src="/assets/img/ftr-logo.svg" alt="logo" width={379} height={105}/>
 
                         </div>
 
@@ -133,7 +134,7 @@ export default function Footer(){
 
                     <div className="col-lg-4 col-xl-4">
 
-                        <p className="cpy_txt">kdc/one Clarion © . All rights reserved | Designed By Pixel Studios</p>
+                        <p className="cpy_txt">kdc/one Clarion © . All rights reserved | Designed By <Link href="https://www.pixel-studios.com/" target="_blank">Pixel Studios </Link></p>
 
                     </div>
                     <div className="col-lg-3 col-xl-3">

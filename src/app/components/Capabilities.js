@@ -24,7 +24,8 @@ export default function Capabilities({CapData}) {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        speed={1000}
+        navigation={false}
         breakpoints={{
           527: {
             slidesPerView: 2,
