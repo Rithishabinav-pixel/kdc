@@ -183,7 +183,7 @@ export default function products(){
 
                       <div className="col-xl-12">
 
-                          <h2 className={styles.pac_for_txt} data-aos="fade-up">Packaging & Formulation</h2>
+                          <h2 className={styles.pac_for_txt} data-aos="fade-up">Formulation & Packaging</h2>
 
                       </div>
 
