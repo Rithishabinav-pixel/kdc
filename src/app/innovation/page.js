@@ -63,7 +63,8 @@ export default function innovation(){
                            
                             
                             <p className="wht_txt width_cstom">
-                            Our Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, offering a curated selection of innovative packaging concepts, refined finishes, and distinctive formats to bring their brand vision to life.
+                            Our Mumbai showroom serves as a space for beauty discovery, showcasing refined packaging concepts, elevated finishes, and distinctive formats for your next launch.<br/> <br/>
+                            Experience our collection firsthand, explore refined packaging possibilities with our team, and shape your next beauty launch with a distinct sense of identity.
                             </p>
 
                             
@@ -111,7 +112,7 @@ export default function innovation(){
 
                         </GsapTitle>
 
-                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects brands to HCT packaging is the group of kdc/one’s international network, unlocking a considered selection of packaging concepts, refined finishes, and distinctive formats.</p>
+                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, offering a curated selection of innovative packaging concepts, refined finishes, and distinctive formats to bring their brand vision to life.</p>
 
                     </div>
 

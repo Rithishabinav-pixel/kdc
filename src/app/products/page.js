@@ -208,7 +208,7 @@ export default function products(){
                  </GsapTitle>
 
 
-                      <p>If you are developing a new beauty product, exploring premium packaging, our team is ready to start the conversation.</p>
+                      <p>Whether you are developing a new beauty product or exploring premium packaging, our team is ready to start the conversation.</p>
 
                   </div>
                   <div className="col-xl-5" data-aos="fade-left">
