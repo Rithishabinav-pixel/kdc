@@ -593,9 +593,8 @@ footer h4 {
 .tp_bt_spc{
   padding: 50px 0px;
 }
-input::placeholder, select option, textarea::placeholder, .select {
-  color: #000;
-  opacity: 0.5; /* Ensures the exact color displays in Firefox */
+input::placeholder, select option, textarea::placeholder, select {
+  color: rgba(0, 0, 0, 0.5);
 }
 .input_tag input{
   background-color: #fff;
