@@ -1489,9 +1489,9 @@ h2 br{
   .slider_section {
     padding-top: 120px;
   }
-  .product_slider .swiper-horizontal .swiper-button-next, .product_slider .swiper-horizontal .swiper-button-next {
+  /* .product_slider .swiper-horizontal .swiper-button-next, .product_slider .swiper-horizontal .swiper-button-next {
     top: inherit !important
-  }
+  } */
 }
 
 /* @media screen and (max-height: 600px) {
