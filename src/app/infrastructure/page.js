@@ -67,11 +67,10 @@ export default function infrastructure() {
 
                     <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-5" data-aos="fade-right">
 
-                        <h1 className={`bnr_titl ${styles.clr_wht}`}>The Future of Beauty Packaging, Built in India. </h1>
+                        <h1 className={`bnr_titl ${styles.clr_wht}`}>World-Class Manufacturing for Leading Beauty Brands.</h1>
 
                         <p className={styles.clr_wht}>
-                        Our new Greenfield facility in Bhilad, Gujarat, will bring injection moulding, metallisation and advanced decoration capabilities to India’s beauty packaging industry.<br /><br />
-                        With screen printing and hot foil stamping, the facility will support premium cosmetic packaging through specialised manufacturing processes and versatile decorative finishes.
+                        A trusted contract manufacturing partner for global and Indian beauty brands, Clarion delivers high-quality, scalable and compliant solutions across a wide range of personal care, beauty and cosmetics categories.
                         </p>
 
                         {/* <Link href="/contact-us" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link> */}
@@ -104,7 +103,8 @@ export default function infrastructure() {
 
                    <GsapTitle className="blk_cmmn_tit">
             
-                   A New Beauty Manufacturing Platform in India. 
+                   A New Era in Premium Beauty Packaging Manufacturing.
+ 
 
                     </GsapTitle>
 
@@ -130,11 +130,13 @@ export default function infrastructure() {
                         <div className={styles.mnft_cnt}>
 
                             <p data-aos="fade-up">
-                            The new Bhilad facility strengthens India’s beauty packaging manufacturing base, adding specialised capabilities for cosmetic components and high-quality surface decoration.<br /><br />
-By integrating injection moulding, metallisation, screen printing and hot foil stamping, it will support packaging manufacturers and beauty brands with local production capabilities across component manufacturing, finishing and brand application.
+                            The upcoming greenfield manufacturing facility at Bhilad, Gujarat, marks a significant milestone in the kdc/one Clarion Beauty partnership, bringing global packaging technology and engineering expertise closer to India's growing beauty and personal care industry.<br /><br />
+Designed to manufacture premium cosmetic packaging, the facility will feature advanced injection moulding, metallisation, screen printing and hot foil stamping capabilities, combining sophisticated aesthetics with functionality, precision and quality.<br /><br />
+With a planned area of approximately <strong>145,000 sq. ft.</strong> and a projected workforce of over <strong>200 people,</strong> the facility aims to establish a scalable manufacturing platform serving leading Indian and international beauty brands.
+
                             </p>
 
-                             <div className={styles.mnft_cuntr}>
+                             {/* <div className={styles.mnft_cuntr}>
 
                                  <div className={styles.cntr_crd} data-aos="fade-up">
 
@@ -168,7 +170,7 @@ By integrating injection moulding, metallisation, screen printing and hot foil s
 
                                  </div>
 
-                             </div>
+                             </div> */}
                         
                         </div>
                         
@@ -221,9 +223,9 @@ By integrating injection moulding, metallisation, screen printing and hot foil s
                      
 
                       <p>
-                      As our Bhilad facility takes shape, we are building on the sustainability commitments and responsible business practices of our parent companies, kdc/one and Clarion Group. Their established approaches to environmental responsibility, governance and community development provide a foundation as we work towards defining our own priorities for responsible manufacturing and packaging. <br /> <br />
+                      As our Bhilad facility takes shape, we are building on the sustainability commitments and responsible business practices of our parent companies, kdc/one and Clarion Group. Their established approaches to environmental responsibility, governance and community development provide a foundation as we work towards defining our own priorities for responsible manufacturing and packaging.<br /><br />
+Our approach will continue to evolve as the facility develops. In the meantime, we are drawing on our parent companies’ experience to inform our approach to responsible manufacturing and packaging. 
 
-Our approach will continue to evolve as the facility develops. In the meantime, we are drawing on our parent companies’ experience to inform our approach to responsible manufacturing and packaging.
 </p>
 
                   </div>

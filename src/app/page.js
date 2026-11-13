@@ -522,7 +522,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
         <GsapTitle className="blk_cmmn_tit text-center">
         
-        Beauty Packaging, Built for Performance.
+        Beauty Packaging. Combining Aesthetic Appeal, Functionality and Everyday Convenience.
 
         </GsapTitle>
 
