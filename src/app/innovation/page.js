@@ -63,15 +63,9 @@ export default function innovation(){
                            
                             
                             <p className="wht_txt width_cstom">
-<<<<<<< HEAD
-                            Our Mumbai showroom serves as a space for beauty discovery, showcasing refined packaging concepts, elevated finishes, and distinctive formats for your next launch.<br/> <br/>
-                            Experience our collection firsthand, explore refined packaging possibilities with our team, and shape your next beauty launch with a distinct sense of identity.
-=======
+                           Our Mumbai showroom offers an inspiring space to explore innovative beauty packaging solutions, showcasing sophisticated designs, premium finishes and distinctive formats tailored to evolving market trends.<br/><br/>
+                           Experience our extensive packaging collection firsthand, engage with our team of experts and discover possibilities that bring together aesthetics, functionality and convenience to create a distinctive identity for your brand.
 
-                            Our Mumbai showroom offers an inspiring space to explore innovative beauty packaging solutions, showcasing sophisticated designs, premium finishes and distinctive formats tailored to evolving market trends.<br /><br />
-                            Experience our extensive packaging collection firsthand, engage with our team of experts and discover possibilities that bring together aesthetics, functionality and convenience to create a distinctive identity for your brand.
-
->>>>>>> 447eeec177fff1bc1ce9056a53898f174b03cad5
                             </p>
 
                             
@@ -119,11 +113,7 @@ export default function innovation(){
 
                         </GsapTitle>
 
-<<<<<<< HEAD
                          <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, offering a curated selection of innovative packaging concepts, refined finishes, and distinctive formats to bring their brand vision to life.</p>
-=======
-                         <p className="text-center" data-aos="fade-up">Clarion’s Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, curating a world of innovative packaging concepts, refined finishes and distinctive formats to bring their brand vision to life.</p>
->>>>>>> 447eeec177fff1bc1ce9056a53898f174b03cad5
 
                     </div>
 
