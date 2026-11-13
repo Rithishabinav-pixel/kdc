@@ -13,19 +13,20 @@ export default function Capabilities({CapData}) {
     return (
 
         <Swiper
-        modules={[Autoplay]} 
+        modules={[Autoplay, Navigation]} 
         spaceBetween={20}
         // slidesPerView={4.5}
         loop={true}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true,
         }}
         pagination={{
           clickable: true,
         }}
         speed={1000}
-        navigation={false}
+        navigation={true}
         breakpoints={{
           527: {
             slidesPerView: 2,

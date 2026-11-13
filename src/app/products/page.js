@@ -10,6 +10,8 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from "gsap/SplitText";
 import GsapTitle from "../components/GsapTitle";
+import PhoneInputTag from "../components/PhoneInputTag";
+
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
  
@@ -63,13 +65,13 @@ export default function products(){
 
                          <h1 className="bnr_titl">Formulation. Packaging. Beauty. Connected.</h1>
 
-                         <p>We bring together cosmetic formulation, packaging innovation, and manufacturing expertise to create premium skin care, hair care and sun care protection products tailored to your brand’s vision.</p>
+                         <p>We bring together advanced formulation expertise, innovative packaging solutions and market insights to create distinctive, high-quality beauty and personal care products for brands across India and global markets.</p>
 
                          <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link>
                       
                        </div>
 
-                       <div className="col-12 col-lg-7 col-xl-7 col-xxl-8 d-flex justify-content-center">
+                       {/* <div className="col-12 col-lg-7 col-xl-7 col-xxl-8 d-flex justify-content-center">
 
                             <div className={styles.prdt_hro_crd}>
 
@@ -79,7 +81,7 @@ export default function products(){
 
                             </div>
 
-                       </div>
+                       </div> */}
 
                        <div className="col-12 p-0">
                         
@@ -213,28 +215,31 @@ export default function products(){
                   </div>
                   <div className="col-xl-5" data-aos="fade-left">
 
-                      <div className={styles.form_crd}>
+                      <div className="form_crd">
 
-                          <h3 className={styles.frm_titl}>Get in Touch</h3>
+                            <h3 className="frm_titl">Tell Us About Yourself</h3>
                           
                           <form>
 
-                              <input type="text" placeholder="Enter your full name" />
+                              <input type="text" placeholder="Full Name" />
 
-                              <input type="text" placeholder="Enter your company name" />
+                              {/* <input type="text" placeholder="Company Name" /> */}
 
-                              <input type="text" placeholder="Enter your designation" />
+                              <input type="text" placeholder="Designation" />
 
-                              <input type="text" placeholder="Enter your email address" />
+                              <input type="text" placeholder="Email Address" /> 
 
-                              <input type="text" placeholder="Enter your mobile number" />
+                              <PhoneInputTag>
+
+                              </PhoneInputTag>
+
+                              
 
                               <select>
                                     
-                                    <option>--Service Required--</option>
+                                    <option>Service Required</option>
                                     <option value="Formulation">Formulation</option>
                                     <option value="Packaging">Packaging</option>
-                                
 
                                 </select>
 

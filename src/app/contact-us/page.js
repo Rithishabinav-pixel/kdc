@@ -2,6 +2,7 @@
 import styles from "./contactus.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import PhoneInputTag from "../components/PhoneInputTag";
 
 export default function products(){
 
@@ -70,44 +71,47 @@ Share your requirements with us, and our team will connect with you to explore t
                     </div>
                     <div className="col-md-12 col-lg-5 col-xl-5" data-aos="fade-left">
 
-                        <div className={styles.form_crd}>
+                        <div className="form_crd">
 
-                            <h3 className={styles.frm_titl}>Tell Us About Yourself</h3>
+                            <h3 className="frm_titl">Tell Us About Yourself</h3>
                             
                             <form>
 
-                                <input type="text" placeholder="Enter your full name" />
+                              <input type="text" placeholder="Full Name" />
 
-                                <input type="text" placeholder="Enter your company name" />
+                              {/* <input type="text" placeholder="Company Name" /> */}
 
-                                <input type="text" placeholder="Enter your designation" />
+                              <input type="text" placeholder="Designation" />
 
-                                <input type="text" placeholder="Enter your email address" />
+                              <input type="text" placeholder="Email Address" /> 
 
-                                <input type="text" placeholder="Enter your mobile number" />
+                              <PhoneInputTag>
+                                
+                              </PhoneInputTag>
 
-                                <select>
+                              
+
+                              <select>
                                     
-                                    <option>--Service Required--</option>
+                                    <option>Service Required</option>
                                     <option value="Formulation">Formulation</option>
                                     <option value="Packaging">Packaging</option>
-                                
 
                                 </select>
 
-                                <input type="text" placeholder="Country / Location" />
+                              <input type="text" placeholder="Country / Location" />
 
-                                <textarea placeholder="Message" />
+                              <textarea placeholder="Tell us about your project" />
 
-                                    <div className="input_tag">
+                                <div className="input_tag">
+ 
+                                    {/* <input type="text" placeholder="Enter your email address"/> */}
 
-                                        {/* <input type="text" placeholder="Enter your email address"/> */}
+                                    <button type="submit">Submit <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
 
-                                        <button type="submit">Submit <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
+                                </div>
 
-                                    </div>
-
-                            </form>
+                          </form>
 
                             
 

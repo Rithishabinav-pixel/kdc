@@ -20,9 +20,9 @@ export default function innovation(){
 
                     <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-4" data-aos="fade-right">
 
-                        <h1 className="bnr_titl">Bringing World Beauty Innovation Closer.</h1>
+                        <h1 className="bnr_titl">Bringing Global Beauty Innovation Closer to India.</h1>
 
-                        <p>Global beauty advancement, shaped by Asian insight. We bring together advanced formulations, elevated aesthetics, and precision manufacturing to create beauty products that embody quality and distinction.</p>
+                        <p>Combining world-class beauty innovation, advanced formulation expertise and sophisticated packaging design with deep Asian market insights and established Indian manufacturing capabilities. Together, these strengths create new possibilities for distinctive, high-quality beauty and personal care solutions.</p>
 
                         {/* <Link href="/contact-us" className="common_btn"> <span>Contact Us</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Logo" width={24} height={24} /></Link> */}
                     
@@ -56,14 +56,17 @@ export default function innovation(){
 
                         <GsapTitle className="wht_cmmn_tit">
             
-                        Where Brands Explore What’s Next in Beauty.
+                        Discover What's Next in Beauty.
 
                         </GsapTitle>
                              
                            
                             
                             <p className="wht_txt width_cstom">
-                            Our Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, offering a curated selection of innovative packaging concepts, refined finishes, and distinctive formats to bring their brand vision to life.
+
+                            Our Mumbai showroom offers an inspiring space to explore innovative beauty packaging solutions, showcasing sophisticated designs, premium finishes and distinctive formats tailored to evolving market trends.<br /><br />
+                            Experience our extensive packaging collection firsthand, engage with our team of experts and discover possibilities that bring together aesthetics, functionality and convenience to create a distinctive identity for your brand.
+
                             </p>
 
                             
@@ -107,11 +110,11 @@ export default function innovation(){
 
                       <GsapTitle className="blk_cmmn_tit text-center" data-aos="fade-up">
             
-                      Connected to Beauty Innovation Worldwide.
+                      A Global Beauty Partner for Your Next Innovation.
 
                         </GsapTitle>
 
-                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects brands to HCT packaging is the group of kdc/one’s international network, unlocking a considered selection of packaging concepts, refined finishes, and distinctive formats.</p>
+                         <p className="text-center" data-aos="fade-up">Clarion’s Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, curating a world of innovative packaging concepts, refined finishes and distinctive formats to bring their brand vision to life.</p>
 
                     </div>
 

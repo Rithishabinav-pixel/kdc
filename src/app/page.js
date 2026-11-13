@@ -23,11 +23,11 @@ const ProductSlides = [
     title: "Haircare",
     img: "/assets/img/hair_care_img.webp", 
    },
-   {
-    id:4,
-    title: "Sun Protection",
-    img: "/assets/img/sun_care_img.webp",
-   },
+  //  {
+  //   id:4,
+  //   title: "Sun Protection",
+  //   img: "/assets/img/sun_care_img.webp",
+  //  },
   
 ]
 
@@ -55,46 +55,47 @@ const Blogdata = [
 const capabilitiesData = [
   {
     id: 1,
+    title: "Formulation Innovation",
+    description: "Formulation expertise and research capabilities support the development of premium skincare and haircare products shaped around evolving brand needs and consumer expectations.",
+    img: "/assets/img/prd-img-3.webp",
+  },
+  {
+    id: 2,
+    title: "Product Development & Manufacturing",
+    description: "Global R&D capabilities supported by an expansive formula library across skincare/haircare, global innovation expertise and established local manufacturing footprint helps beauty and personal care brands create relevant solutions.",
+    img: "/assets/img/prd-img-4.webp",
+  },
+  {
+    id: 3,
     title: "Injection Moulding",
     description: "Precision-engineered packaging components designed to meet the functional and aesthetic requirements of beauty and personal care products.",
     img: "/assets/img/prd-img-1.webp",
   },
   {
-    id: 2,
+    id: 4,
     title: "Metallisation", 
     description: "Premium metallic finishes that enhance packaging appeal, adding depth, visual distinction and a refined look to beauty products.",
     img: "/assets/img/prd-img-2.webp",
   },
   {
-    id: 3,
+    id: 5,
     title: "Screen Printing",
     description: "Packaging decoration that brings brand identities to life through clear graphics, precise detailing and consistent visual presentation.",
-    img: "/assets/img/prd-img-3.webp",
+    img: "/assets/img/~prd-img-3.webp",
   },
   {
-    id: 4,
+    id: 6,
     title: "Hot Foil Stamping",
     description: "Distinctive foil accents that add a premium finish to cosmetic packaging, enhancing visual appeal through refined metallic detailing.",
     img: "/assets/img/prd-img-4.webp",
   },
   {
-      id: 5,
+      id: 7,
       title: "Packaging Design and Engineering",
       description: "Global design expertise and engineering knowledge come together to develop packaging that balances aesthetics, functionality and manufacturing requirements.",
       img: "/assets/img/prd-img-5.webp",
   },
-  {
-    id: 6,
-    title: "Formulation Innovation",
-    description: "Formulation expertise and research capabilities support the development of skincare and haircare products shaped around evolving brand needs and consumer expectations.",
-    img: "/assets/img/prd-img-3.webp",
-  },
-  {
-    id: 7,
-    title: "Product Development",
-    description: "A connected approach to formulation and packaging helps brands translate product concepts into considered solutions, ready to progress towards manufacturing.",
-    img: "/assets/img/prd-img-4.webp",
-  },
+  
 ]
 
 
@@ -109,25 +110,25 @@ export default function Home() {
 
 
     <section className="slider_section">
-
+ 
       <div className="container">
 
-        <div className="row justify-content-between align-items-end">
+        <div className="row justify-content-between align-items-center">
 
            <div className="col-sm-12 col-lg-6 col-xl-6 col-xxl-5">
   
                 <div id="home_slider" className="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
 
                   {/* Indicators */}
-
-                  {/* <div className="carousel-indicators">
+ 
+                  <div className="carousel-indicators">
 
                     <button type="button" data-bs-target="#home_slider" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
 
                     <button type="button" data-bs-target="#home_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
                     <button type="button" data-bs-target="#home_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div> */}
+                  </div>
 
                   {/* Slides */}
 
@@ -137,7 +138,7 @@ export default function Home() {
 
                        <h2 className="slider_caption">Beauty Innovation, Brought Closer to India.</h2>
 
-                       <p>From sophisticated formulations to precision engineered cosmetics packaging, we unite product development and manufacturing expertise to help beauty brands create market-ready products for Asian markets.</p>
+                       <p>From sophisticated formulations to precision engineered cosmetics packaging, we help beauty brands create market-ready products for Indian and global markets. </p>
 
                        <Link href="/about" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
@@ -147,7 +148,7 @@ export default function Home() {
 
                          <h2 className="slider_caption">Thoughtfully Crafted Solutions For Beauty.</h2>
 
-                         <p>At kdc/one Clarion, every small detail shapes the final product. We bring formulation science, packaging engineering and manufacturing expertise together to create beauty solutions with purpose.</p>
+                         <p>At kdc/one Clarion Beauty, every small detail shapes the final product. We bring formulation science, world-class filling lines and packaging design and manufacturing expertise to create beauty solutions with purpose. </p>
 
                          <Link href="/products" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
@@ -157,7 +158,7 @@ export default function Home() {
 
                           <h2 className="slider_caption">Where <br />Vision Meets Refined Craftsmanship. </h2>
 
-                           <p>We unite advanced formulation expertise, refined packaging design and manufacturing capabilities to help beauty brands bring distinctive, market relevant products to life.</p>
+                           <p>We bring advanced formulation expertise, refined packaging design and manufacturing capabilities to help beauty brands create distinctive, market relevant products.</p>
  
                            <Link href="/infrastructure" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
 
@@ -165,7 +166,7 @@ export default function Home() {
 
                   </div>
 
-                  <button className="carousel-control-prev" type="button" data-bs-target="#home_slider" data-bs-slide="prev">
+                  {/* <button className="carousel-control-prev" type="button" data-bs-target="#home_slider" data-bs-slide="prev">
 
                   <Image src="/assets/img/left-arrw-icn.svg" alt="Arrow" width={24} height={24}/>
 
@@ -175,13 +176,13 @@ export default function Home() {
                    
                   <Image src="/assets/img/right-arrw-icn.svg" alt="Arrow" width={24} height={24}/>
 
-                  </button>
+                  </button> */}
 
                 </div>
 
            </div>
 
-           <div className="col-sm-12 col-lg-6 col-xl-6 col-xxl-7">
+           <div className="col-sm-12 col-lg-6 col-xl-6 col-xxl-5">
   
                 <div className="slider_bnr">
 
@@ -223,7 +224,7 @@ export default function Home() {
 
                       <GsapTitle className="wht_cmmn_tit">
             
-                      Global Expertise.<br /> Deep Indian Market Insight. 
+                      Global Expertise. <br />Deep Indian Market Insight. 
 
                       </GsapTitle>
   
@@ -241,7 +242,7 @@ export default function Home() {
 
                      <Image src="/assets/img/arrow-one.svg" className="arrw_one" alt="Arrow" width={270} height={30}/>
                         
-                      <p>kdc/one brings global beauty innovation, formulation expertise and packaging design capabilities to help brands develop distinctive beauty and personal care products. Its technical expertise supports product development and premium packaging solutions.</p>
+                      <p>kdc/one brings global formulation, innovation and packaging design expertise to help brands develop distinctive beauty and personal care products. Its technical expertise supports product development and premium packaging solutions. </p>
 
                   </div>
                   
@@ -253,7 +254,7 @@ export default function Home() {
 
                    <Image src="/assets/img/arrow-one.svg" className="arrw_two" alt="Arrow" width={270} height={30}/>
                         
-                      <p>Clarion brings hair care and skin care expertise and experience with asian market knowledge to help brands create locally relevant beauty and personal care products. Together, these strengths address evolving consumer needs and market opportunities.</p>
+                      <p>Clarion brings knowledge of the Indian market and manufacturing experience, supporting Beauty and Personal Care brands with locally relevant solutions. Together, these strengths address evolving consumer needs and market opportunities.</p>
 
                   </div>
 
@@ -276,7 +277,7 @@ export default function Home() {
 
               <GsapTitle className="blk_cmmn_tit text-center">
       
-                The Strength Behind Every Beauty Solution.
+              The Strength Behind Every Beauty Solution.
 
               </GsapTitle>
 
@@ -300,7 +301,122 @@ export default function Home() {
 
        <div className="row mt-3">
 
-         <div className="col-6 col-md-6 col-lg-3 p-0" data-aos="fade-up">
+
+
+         <div className="kdc_clarion_cuntr">
+
+            <div className="clarion_cuntr">
+ 
+                 <h3>For kdc/one</h3>
+
+                <div className="cunt_crf_kd">
+
+                   <h3>
+            
+                      <CountUp end={30} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> +</small>
+
+                  </h3>
+
+                  <p>Manufacturing Facilities</p>    
+
+                </div>
+                <div className="cunt_crf_kd">
+
+                  <h3>
+              
+                      <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+</small>
+
+                  </h3>
+
+                  <p>Countries </p> 
+
+                  
+                </div>
+                <div className="cunt_crf_kd">
+
+                    <h3>
+                  
+                        <CountUp end={6.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mm Square Ft</small>
+
+                    </h3>
+
+                    <p>Manufacturing Infrastructure </p> 
+
+                  
+                </div>
+                <div className="cunt_crf_kd">
+
+                    <h3>
+                      
+                      <CountUp end={29} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
+
+                  </h3>
+
+                  <p>R&D, Design & Creative facilities </p>
+
+                  
+                </div>
+
+                
+
+            </div>
+            <div className="kdc_cuntr">
+
+                <h3>For Clarion</h3>
+  
+                <div className="cunt_crf_kd">
+
+                <h3>
+
+                  <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
+
+                </h3>
+
+                <p>Manufacturing Facilities</p>    
+
+                </div>
+                <div className="cunt_crf_kd">
+
+                <h3>
+
+                  <CountUp end={235000} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+ MT</small>
+
+                </h3>
+
+                <p>Annual Production Capacity </p> 
+
+
+                </div>
+                <div className="cunt_crf_kd">
+
+                <h3>
+
+                    <CountUp end={1} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mm + Square Ft</small>
+
+                </h3>
+
+                <p>Manufacturing Infrastructure </p> 
+
+
+                </div>
+                <div className="cunt_crf_kd">
+
+                <h3>
+                  
+                  <CountUp end={1500} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+</small>
+
+                </h3>
+
+                <p>SKU’s produced annually </p>
+
+
+                </div>
+              
+            </div>
+
+         </div>
+
+         {/* <div className="col-6 col-md-6 col-lg-3 p-0" data-aos="fade-up">
           
          <h3>
             
@@ -340,18 +456,105 @@ export default function Home() {
           
          <h3>
             
-            <CountUp  end={2.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> M+
+            <CountUp  end={2.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>M+</small>
 
          </h3>
 
          <p>Annual Capacity in Tonnes</p>      
 
-         </div>
+         </div> */}
   
        </div>
 
      </div>
         
+
+    </section>
+
+     <section className="global_thinking common_spc ecru_wht">
+
+     <div className="container p-0">
+
+          <div className="row justify-content-between">
+
+            <div className="col-lg-5 col-xl-5">
+
+              <div data-aos="fade-up">
+
+                    <GsapTitle className="blk_cmmn_tit">
+        
+                    Global R&D Excellence. Indian Manufacturing Expertise. Innovation Without Boundaries.
+ 
+                   </GsapTitle>
+
+
+                    <Link href="/infrastructure" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+
+              </div>
+
+            </div>
+
+            <div className="col-lg-4 d-flex flex-column-reverse">
+
+              <div className="gt_spc_top" data-aos="fade-up" data-aos-delay="100">
+
+                <p className="cmmn_txt"> kdc/one Clarion Beauty combines kdc/one’s extensive formulation library across skincare and haircare, world-class R&D capabilities and global innovation expertise with Clarion’s deep understanding of the Indian market and established manufacturing footprint serving leading Indian and multinational brands.<br /><br />
+This partnership bridges global innovation with local market needs, enabling the development of differentiated, high-performance formulations tailored to Indian and Asian consumers, while creating a strong platform for beauty innovation and manufacturing excellence in India.
+</p>
+
+              </div>
+
+            </div>
+        
+          </div>
+
+     </div>
+
+    </section>
+
+    <section className="packaging_sliding" data-aos="fade-up">
+
+      <div className="container p-0">
+
+          <div className="row justify-content-center">
+
+    <div className="col-sm-12 col-md-10 col-lg-7">
+
+        <GsapTitle className="blk_cmmn_tit text-center">
+        
+        Beauty Packaging, Built for Performance.
+
+        </GsapTitle>
+
+       
+
+        {/* <div className="two_btns">
+
+            <Link href="#" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+
+            <Link href="#" className="wht_btn"> <span>Know More</span> <Image src="/assets/img/blu-arr.svg" alt="Arrow" width={24} height={24}/></Link>
+
+        </div> */}
+
+    </div>
+
+          </div>
+
+          <div className="row">
+
+            <div className="col-lg-12">
+
+              <div className="package_sliders">
+
+                <PackageSwiper />
+
+                </div>
+
+            </div>
+
+          </div>
+
+      </div>
 
     </section>
 
@@ -514,46 +717,9 @@ export default function Home() {
 
     </section> */}
 
-    <section className="global_thinking common_spc">
+   
 
-     <div className="container p-0">
-
-          <div className="row justify-content-between">
-
-            <div className="col-lg-5 col-xl-5">
-
-              <div data-aos="fade-up">
-
-                    <GsapTitle className="blk_cmmn_tit">
-        
-                    R&D That Brings Internatonal Thinking Closer<br /> to Asia. 
- 
-                   </GsapTitle>
-
-
-                    <Link href="/infrastructure" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
-
-              </div>
-
-            </div>
-
-            <div className="col-lg-4 d-flex flex-column-reverse">
-
-              <div className="gt_spc_top" data-aos="fade-up" data-aos-delay="100">
-
-                <p className="cmmn_txt"> Bringing world class research and development to India by applying international R&D capabilities to the needs of the beauty industry. This connection bridges global perspectives and local requirements, supporting the development of formulations relevant to Asian beauty brands. The focus is on aligning product development with market needs, creating a stronger foundation for beauty innovation in India.</p>
-
-              </div>
-
-            </div>
-        
-          </div>
-
-     </div>
-
-    </section>
-
-    <section className="product_categories ecru_wht">
+    <section className="product_categories">
 
       <div className="container p-0">
 
@@ -571,11 +737,26 @@ export default function Home() {
 
           </div> 
 
-          <div className="product_slider">
 
-          <CommonSwiper slides={ProductSlides} />
+          <div className="container">
 
-          </div>  
+             <div className="row justify-content-center">
+
+                 <div className="col-lg-8">
+
+                 <div className="product_slider">
+
+<CommonSwiper slides={ProductSlides} />
+
+</div>  
+
+                 </div>
+
+             </div>
+
+          </div>
+
+          
 
       </div>
 
@@ -583,51 +764,7 @@ export default function Home() {
 
     </section>
 
-    <section className="packaging_sliding" data-aos="fade-up">
-
-      <div className="container p-0">
-
-          <div className="row justify-content-center">
-
-    <div className="col-sm-12 col-md-10 col-lg-7">
-
-        <GsapTitle className="blk_cmmn_tit text-center">
-        
-        Beauty Packaging, Built for Performance.
-
-        </GsapTitle>
-
-       
-
-        {/* <div className="two_btns">
-
-            <Link href="#" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
-
-            <Link href="#" className="wht_btn"> <span>Know More</span> <Image src="/assets/img/blu-arr.svg" alt="Arrow" width={24} height={24}/></Link>
-
-        </div> */}
-
-    </div>
-
-          </div>
-
-          <div className="row">
-
-            <div className="col-lg-12">
-
-              <div className="package_sliders">
-
-                <PackageSwiper />
-
-                </div>
-
-            </div>
-
-          </div>
-
-      </div>
-
-    </section>
+    
 
     <section className="manufacturing_section">
 
@@ -641,16 +778,18 @@ export default function Home() {
 
                  <h2 className="wht_cmmn_tit">
         
-                 Where Quality, Capability and Scalability Come Together.
+                 Where Global Expertise Meets Manufacturing Excellence
 
                   </h2>
   
                        
 
-                        <p className="wht_txt width_cstom">
+                        <p className="wht_txt width_cstom_gl">
                           
-                        Clarion’s blending and filling capabilities combine with kdc/one’s packaging design and engineering expertise through HCT, connecting product development with manufacturing.<br /><br />
-                        The upcoming Gujarat facility will focus on premium cosmetic and personal care packaging with advanced finishing capabilities, supporting Indian and international beauty brands from development to production.
+                        kdc/one brings global expertise in beauty packaging design, development and engineering through HCT, offering innovative, aesthetically appealing and high-performance packaging solutions.<br /><br />
+                        Clarion complements these strengths with decades of manufacturing expertise and established blending, filling and packaging capabilities, serving leading Indian and multinational brands.<br /><br />
+                        Together, these capabilities create an integrated platform for beauty innovation and scalable manufacturing. The upcoming Gujarat facility will further strengthen this offering, focusing on premium beauty and personal care packaging with advanced decoration and finishing capabilities.
+
                           
                         </p>    
 
@@ -703,9 +842,9 @@ export default function Home() {
 
                       <div className="glb_crd_cnt">
 
-                          <h4>We Bring International<br /> Thinking Closer.</h4>
+                          <h4>Global Expertise. <br />Local Relevance.</h4>
 
-                          <p>You gain access to global beauty expertise, innovation and category knowledge, shaped around the realities of the Asian market.</p>
+                          <p>Access world-class beauty innovation, formulation expertise and extensive category knowledge, tailored to the evolving needs of Indian and Asian beauty markets.</p>
 
                       </div>
                       <div className="glb_crd_img">
@@ -720,9 +859,9 @@ export default function Home() {
 
                     <div className="glb_crd_cnt">
 
-                        <h4>We Keep the Journey <br />Connected.</h4>
+                        <h4>Local Understanding. <br />Greater Responsiveness.</h4>
 
-                        <p>From formulation and manufacturing  to packaging, we connect the right capabilities so your product moves forward with greater clarity and continuity.</p>
+                        <p>Combining deep market insights with an established manufacturing presence in India to enable closer collaboration, greater flexibility and responsive execution.</p>
 
                     </div>
                     <div className="glb_crd_img">
@@ -758,9 +897,9 @@ export default function Home() {
 
                         <div className="glb_crd_cnt">
 
-                            <h4>We Stay Closer to Your Market.</h4>
+                            <h4>Complementary Strengths. Expanding Possibilities.</h4>
 
-                            <p>The market, presence and manufacturing capability help support faster collaboration, greater flexibility and a more responsive route to execution.</p>
+                            <p>Combining global expertise in formulation development and packaging innovation with established Indian manufacturing capabilities, laying the foundation for a progressively integrated beauty solutions platform.</p>
 
                         </div>
                         <div className="glb_crd_img">
@@ -775,9 +914,9 @@ export default function Home() {
 
                   <div className="glb_crd_cnt">
 
-                      <h4>We Build for Consistency at Scale.</h4>
+                      <h4>Quality and Consistency at Scale.</h4>
 
-                      <p>Quality, process discipline and manufacturing expertise stay at the centre, helping your product maintain its standard as volumes and markets grow.</p>
+                      <p>Built on global quality standards, proven manufacturing expertise and process excellence to support consistent product quality as brands and volumes grow.</p>
 
                   </div>
                   <div className="glb_crd_img">

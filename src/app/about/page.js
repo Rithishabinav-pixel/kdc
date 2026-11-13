@@ -145,8 +145,8 @@ export default function About() {
 
                     <p className="txt mt-3 width_cstom">
 
-                    kdc/one and Clarion have joined forces to bring together international innovation, packaging excellence and established Indian manufacturing expertise. <br /> <br />
-                    Our partnership connects formulation, product development, design and manufacturing capabilities, creating new opportunities for beauty and personal care brands seeking distinctive products, dependable quality and scalable solutions.
+                    kdc/one and Clarion have joined forces, combining global innovation and packaging expertise with decades of Indian manufacturing excellence. <br /> <br />
+                    Built on complementary strengths in formulation, product development, packaging design and manufacturing, this partnership aims to create new possibilities for beauty and personal care brands through innovative solutions, uncompromising quality and scalable capabilities.
 
                     </p>
 
@@ -183,7 +183,9 @@ export default function About() {
 
                 <GsapTitle className="blk_cmmn_tit">
             
-                   Two Strengths. <br />One Beauty Partner.
+                   {/* Two Strengths. <br />One Beauty Partner. */}
+
+                   Complementary Strengths. Shared Vision.
 
                 </GsapTitle>
 
@@ -204,11 +206,11 @@ export default function About() {
                    <div className={`${styles.spc_tp_th} ${styles.strgt_crd}`} data-aos="fade-right">
 
                      <h3>
-                     kdc/one - Global beauty innovation and expertise
+                     kdc/one – Global Innovation and Beauty Expertise
                      </h3>
 
                      <p>
-                     kdc/one brings global expertise in beauty innovation, formulation, product development, packaging design and engineering. With integrated capabilities spanning from concept to manufacturing, it helps beauty and personal care brands develop distinctive products through technical expertise, creative thinking and solutions tailored to evolving market needs.
+                     kdc/one brings world-class expertise in beauty innovation, formulation development, packaging design and engineering, supported by an extensive global formulation library and advanced R&D capabilities. Its integrated approach combines technical excellence, creative innovation and deep category knowledge to deliver differentiated solutions for beauty and personal care brands worldwide.
                      </p>
 
                    </div>
@@ -228,11 +230,11 @@ export default function About() {
                     <div className={`${styles.spc_tp_h} ${styles.strgt_crd}`} data-aos="fade-left">
 
                         <h3>
-                        Clarion - Deep Indian manufacturing experience
+                        Clarion – Indian Manufacturing Excellence and Market Expertise
                         </h3>
 
                         <p>
-                        Clarion Group brings established manufacturing experience, formulation knowledge and a deep understanding of the Indian beauty and personal care market. Its local expertise and operational capabilities help brands develop products aligned with market requirements, evolving consumer preferences and manufacturing needs.
+                        Clarion Group brings over three decades of manufacturing experience, with established capabilities across beauty and personal care categories, serving leading Indian and multinational brands. Its deep understanding of the Indian market, formulation expertise and proven manufacturing capabilities provide a strong foundation for quality, flexibility and scalable production.
                         </p>
 
                     </div>
@@ -379,7 +381,7 @@ export default function About() {
 
       </section>
       
-      <section className={`common_spc ${styles.idea_section} ${styles.gry_wht_bg}`}>
+      {/* <section className={`common_spc ${styles.idea_section} ${styles.gry_wht_bg}`}>
    
          <div className="container p-0">
 
@@ -390,7 +392,7 @@ export default function About() {
                <GsapTitle className="blk_cmmn_tit text-center">
             
                Turning Ideas Into Market Ready Beauty.
-
+ 
                 </GsapTitle>
 
                </div>
@@ -502,7 +504,7 @@ export default function About() {
          </div>
 
 
-      </section>
+      </section> */}
 
       
     
