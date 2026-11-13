@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
       <body> 
 
-     <Globalclient child={children} />
+       <Globalclient child={children} />
         
       </body>
 

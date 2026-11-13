@@ -18,9 +18,9 @@ export default function Footer(){
 
                     <div className="col-lg-12 col-xl-8">
 
-                        <h2>Bring Us the Idea. We’ll Build the Path.</h2>
+                        <h2>Let's Bring Your Beauty Vision to Life.</h2>
 
-                        <p>Bring us the brief, formula or packaging need. We’ll help define the right path from development to production.</p>
+                        <p>Whether you're exploring a new product concept, innovative formulation or distinctive packaging solution, connect with us to discover how our combined expertise can support your brand's ambitions.</p>
 
                         <div className="ftr_btns">
 

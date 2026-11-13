@@ -33,13 +33,13 @@ export default function CommonSwiper({slides}) {
           slidesPerView: 2,
         },
         1024: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         1600: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         1900: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
       }} 
     >

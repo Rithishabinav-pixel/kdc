@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const tranparentNav = [
@@ -17,6 +17,29 @@ export default function Header(){
    const pathname = usePathname();
 
    const [isopen, setIsopen] = useState(false);
+
+
+   useEffect(()=>{
+
+       window.addEventListener("scroll", ()=>{
+
+         // console.log(window.scrollY)
+
+         if(window.scrollY > 500){
+
+            //  console.log("printed")
+
+            document.body.classList.add("LoadedContent")
+
+         }else {
+
+            document.body.classList.remove("LoadedContent")
+
+         }
+
+       })
+
+   }, [])
 
   
 
