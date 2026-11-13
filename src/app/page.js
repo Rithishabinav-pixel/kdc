@@ -518,7 +518,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
           <div className="row justify-content-center">
 
-    <div className="col-sm-12 col-md-10 col-lg-7">
+    <div className="col-sm-12 col-md-10 col-lg-10">
 
         <GsapTitle className="blk_cmmn_tit text-center">
         
