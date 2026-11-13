@@ -313,7 +313,7 @@ export default function Home() {
 
                    <h3>
             
-                      <CountUp end={30} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> +</small>
+                      <CountUp end={30} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
 
                   </h3>
 
@@ -324,7 +324,7 @@ export default function Home() {
 
                   <h3>
               
-                      <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+</small>
+                      <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
 
                   </h3>
 
@@ -336,7 +336,7 @@ export default function Home() {
 
                     <h3>
                   
-                        <CountUp end={6.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mm Square Ft</small>
+                    {` > `}<CountUp end={6.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn Square Ft</small>
 
                     </h3>
 
@@ -391,7 +391,7 @@ export default function Home() {
 
                 <h3>
 
-                    <CountUp end={1} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mm + Square Ft</small>
+                    <CountUp end={1} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn + Square Ft</small>
 
                 </h3>
 
@@ -816,7 +816,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
               <GsapTitle className="blk_cmmn_tit text-center">
         
-              Why Brands Choose kdc/one Clarion Beauty. 
+              The kdc/one Clarion Beauty Advantage
 
               </GsapTitle>
 

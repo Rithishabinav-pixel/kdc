@@ -275,62 +275,66 @@ export default function About() {
 
             <div className="row mt-5">
 
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up">
+               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up">
 
                   <div className={styles.come_crd}>
 
                      <Image src="/assets/img/global-icn.png" alt="" width={80} height={80} />
 
-                     <h4>Global packaging design and engineering expertise</h4>
+                     <h4>Global Expertise in Packaging Design and Engineering
+</h4>
 
                   </div>
 
                </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="100">
                    
                   <div className={styles.come_crd}>
 
                       <Image src="/assets/img/high-touch-icn.svg" alt="" width={80} height={80} />
 
-                      <h4>High-touch formulation innovation</h4>
+                      <h4>World-Class Skincare and Haircare Formulation Capabilities</h4>
 
                    </div>
  
                </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="200">
 
                   <div className={styles.come_crd}>
 
                       <Image src="/assets/img/skin-care-icn.svg" alt="" width={80} height={80} />
 
-                      <h4>Skincare and haircare formulation capabilities</h4>
+                      <h4>Established Indian Manufacturing, Blending and Filling Expertise
+</h4>
 
                    </div>
 
                </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="300">
+               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="300">
 
                    <div className={styles.come_crd}>
 
                       <Image src="/assets/img/local-icn.svg" alt="" width={80} height={80} />
 
-                      <h4>Local manufacturing, filling and finishing expertise</h4>
+                      <h4>Solutions Tailored to Indian and Asian Market Needs
+</h4>
 
                     </div>
 
                </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="400">
+               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="400">
 
                 <div className={styles.come_crd}>
 
                     <Image src="/assets/img/solution-icn.svg" alt="" width={80} height={80} />
 
-                    <h4>Solutions designed around Indian market requirements</h4>
+                    <h4>Premium Beauty Packaging Capabilities Being Developed in India
+</h4>
 
                 </div>
 
                </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="500">
+               {/* <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="500">
 
                  <div className={styles.come_crd}>
 
@@ -340,7 +344,7 @@ export default function About() {
 
                  </div>
 
-               </div>
+               </div> */}
 
             </div>
 

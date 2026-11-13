@@ -113,7 +113,7 @@ export default function innovation(){
 
                         </GsapTitle>
 
-                         <p className="text-center" data-aos="fade-up">Our Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, offering a curated selection of innovative packaging concepts, refined finishes, and distinctive formats to bring their brand vision to life.</p>
+                         <p className="text-center" data-aos="fade-up">Clarion’s Mumbai showroom connects beauty brands with the global expertise of the kdc/one group, curating a world of innovative packaging concepts, refined finishes and distinctive formats to bring their brand vision to life.</p>
 
                     </div>
 
