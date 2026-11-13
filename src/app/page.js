@@ -560,7 +560,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
     <section className="product_categories ecru_wht">
 
-      <div className="row justify-content-center" data-aos="fade-up">
+      <div className="row justify-content-center">
 
           <div className="col-sm-12 col-md-12 col-lg-8 col-xl-7 p-0">
 
@@ -723,7 +723,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
       <div className="container p-0">
 
-          <div className="row justify-content-center" data-aos="fade-up">
+          <div className="row justify-content-center">
 
               <div className="col-sm-12 col-md-10 col-lg-8 p-0">
 
@@ -810,7 +810,7 @@ This partnership bridges global innovation with local market needs, enabling the
  
        <div className="container p-0">
 
-          <div className="row justify-content-center" data-aos="fade-up">
+          <div className="row justify-content-center">
 
               <div className="col-lg-7">
 

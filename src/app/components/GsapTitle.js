@@ -32,7 +32,7 @@ export default function GsapTitle({ children, className = "" }) {
               duration: 2,
               scrollTrigger: {
                 trigger: gsaptitle.current,
-                start: "top 70%",
+                start: "top 80%",
                 end: "top 40%",
                 scrub: true,
                 // markers: true,

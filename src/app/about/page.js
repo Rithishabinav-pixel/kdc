@@ -179,7 +179,7 @@ export default function About() {
 
              <div className="row p-0">
  
-                <div className="col-lg-12 col-xl-6" data-aos="fade-up">
+                <div className="col-lg-12 col-xl-6">
 
                 <GsapTitle className="blk_cmmn_tit">
             
