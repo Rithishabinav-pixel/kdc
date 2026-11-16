@@ -738,13 +738,13 @@ This partnership bridges global innovation with local market needs, enabling the
           </div> 
 
 
-          <div className="container">
+          <div className="container p-0">
 
              <div className="row justify-content-center">
 
-                 <div className="col-lg-8">
+                 <div className="col-lg-8 ">
 
-                 <div className="product_slider">
+                 <div className="product_slider common_sliders_prd">
 
 <CommonSwiper slides={ProductSlides} />
 
