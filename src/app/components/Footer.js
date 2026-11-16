@@ -88,7 +88,7 @@ export default function Footer(){
                         <ul className="ftr_links">
                             <li><Link href="/products">Skincare</Link></li>
                             <li><Link href="/products">Haircare</Link></li>
-                            <li><Link href="/products">Sun Protection</Link></li>
+                            {/* <li><Link href="/products">Sun Protection</Link></li> */}
                         </ul>
 
                    </div>

@@ -174,12 +174,12 @@ h1.clr_wht, .clr_wht{
     font-weight: 200;
     color: #000;
 }
-.vision_mission {
+/* .vision_mission {
     background-image: url(/assets/img/vission-mision-bnr.webp);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 80%;
-}
+} */
 .top_vs_spc {
     padding-top: 330px;
 }
