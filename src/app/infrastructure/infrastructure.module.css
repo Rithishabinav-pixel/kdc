@@ -64,6 +64,34 @@ h1.clr_wht, p.clr_wht {
     width: 100%;
     height: auto;
 }
+.hero_lst {
+    padding-left: 0px;
+}
+.hero_lst li{
+    list-style-type: none;
+    color: #fff;
+}
+.infrst_hro h4{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.str_crd p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.infrst_hro h4, .str_crd p{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.hero_lst {
+    display: flex;
+    gap: 20px;
+}
+.str_crd {
+    padding-top: 10px;
+}
+
 
 @media screen and (max-width: 1200px){
     .cntr_crd p{
@@ -96,5 +124,14 @@ h1.clr_wht, p.clr_wht {
     }
     .mnft_cnt p{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .hero_lst {
+        flex-wrap: wrap;
+    }
+    .str_crd{
+        width: 45%;
     }
 }

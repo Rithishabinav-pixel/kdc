@@ -59,8 +59,8 @@ Share your requirements with us, and our team will connect with you to explore t
 
                                     {/* <li><Image src="/assets/img/facebook-i.svg" width={20} height={20} alt="" /></li>
                                     <li><Image src="/assets/img/twitter-i.svg" width={14} height={12} alt=""  /></li> */}
-                                    <li><Image src="/assets/img/instagram-icon-i.svg" width={18} height={18} alt=""  /></li>
-                                    <li><Image src="/assets/img/Linked-in-i.svg" width={18} height={18} alt=""  /></li>
+                                    <li><Link href="https://www.instagram.com/kdc.one" target="_blank"><Image src="/assets/img/instagram-icon-i.svg" width={18} height={18} alt=""  /></Link></li>
+                                    <li><Link href="https://www.linkedin.com/company/kdc-corporate" target="_blank"><Image src="/assets/img/Linked-in-i.svg" width={18} height={18} alt=""  /></Link></li>
 
                                   </ul>
 

@@ -660,9 +660,9 @@ footer .input_tag input {
   transition: all .3s;
   border-radius: 10px;
 }
-.social_link a:hover{
+/* .social_link a:hover{
   background-color: #faaf2b;
-}
+} */
 .trm_con a:hover {
   background-color: transparent;
 }
@@ -1018,7 +1018,43 @@ footer .input_tag input {
   background: #000000;
 background: linear-gradient(#00000000 0%, #000000d9 100%);
 }
+.img_rez{
+  width: 100%;
+  height: auto;
+}
+.light_gray{
+  background-color: #f7f7f7;
+}
 
+.addr_txt {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+footer .addr_txt a, footer .addr_txt p{ 
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  transition: all .3s;
+}
+footer .cont_hro p{
+  color: #595B5D;
+  width: 70%;
+}
+footer .addr_txt a:hover{ 
+  color: #faaf2b;
+}
+footer .addr_txt p{ 
+  text-align: left;
+  padding: 0px;
+}
+footer .addr_txt img{
+  filter: brightness(0) invert(1);
+}
 
 
 
@@ -1480,6 +1516,10 @@ h2 br{
   }
   .width_cstom_gl {
     width: 100%;
+  }
+  .cunt_crf_kd small {
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 

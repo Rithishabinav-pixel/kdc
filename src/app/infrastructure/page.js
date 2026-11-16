@@ -65,13 +65,48 @@ export default function infrastructure() {
 
                 <div className="row align-items-center justify-content-between">
 
-                    <div className="col-sm-12 col-lg-5 col-xl-5 col-xxl-5" data-aos="fade-right">
+                    <div className="col-sm-12 col-lg-7 col-xl-7 col-xxl-7" data-aos="fade-right">
 
                         <h1 className={`bnr_titl ${styles.clr_wht}`}>World-Class Manufacturing for Leading Beauty Brands.</h1>
 
                         <p className={styles.clr_wht}>
                         A trusted contract manufacturing partner for global and Indian beauty brands, Clarion delivers high-quality, scalable and compliant solutions across a wide range of personal care, beauty and cosmetics categories.
                         </p>
+
+                        <h4>Key Manufacturing Strengths</h4>
+
+                         <div className={styles.hero_lst}>
+
+                              <div className={styles.str_crd}>
+
+                                <Image src="/assets/img/network-icn.webp" alt="" width={60} height={60} />
+                                
+                                <p>Multi-Category & Multi-Format Capabilities</p>
+
+                              </div>
+                              <div className={styles.str_crd}>
+
+                                <Image src="/assets/img/scalability.webp"  alt="" width={60} height={60} />
+                                
+                                <p>Scalable & Flexible Operations</p>
+
+                              </div>
+                              <div className={styles.str_crd}>
+
+                                <Image src="/assets/img/global-icn.webp"  alt="" width={60} height={60} />
+                                
+                                <p>Global Quality Standards & Compliance</p>
+
+                              </div>
+                              <div className={styles.str_crd}>
+
+                                <Image src="/assets/img/responsible-icn.png"  alt="" width={60} height={60} />
+                                
+                                <p>Responsible & Sustainable Manufacturing</p>
+
+                              </div>
+                           
+                         </div>
 
                         {/* <Link href="/contact-us" className="wht_btn"> <span>Contact Us</span> <Image src="/assets/img/blu-arr.svg" alt="" width={24} height={24}/></Link> */}
                     

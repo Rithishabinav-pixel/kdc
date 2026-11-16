@@ -95,9 +95,41 @@ export default function Footer(){
 
                    <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-4">
 
-                      <h4>Stay Ahead of Beauty Innovation</h4>
+                      {/* <h4>Stay Ahead of Beauty Innovation</h4> */}
+
+                      <h4>Contact Info</h4>
+
+                      <div className="social_info">
+
+
+                               <div className="addr_txt">
+
+                                    <Image src="/assets/img/call.svg" alt="" width={24} height={24} />  
+
+                                    <Link href="tel:912269360666">+91-22-6936 0666</Link>
+
+                               </div>
+
+                               <div className="addr_txt">
+
+                                    <Image src="/assets/img/sms.svg" alt="" width={24} height={24} />  
+
+                                    <Link href="mailto:marketing@kdconeclarion.com">marketing@kdconeclarion.com</Link>
+
+                               </div> 
+
+                               <div className="addr_txt">
+
+                                    <Image src="/assets/img/location.svg" alt="" width={24} height={24} />  
+
+                                    <p>801, Filix Condominium,<br />L B S Marg, Bhandup (West),<br /> Mumbai - 400 078</p>
+
+                               </div>
+
+
+                            </div>
                        
-                       <p className="text-start pt-0 pb-0">Stay informed with the latest beauty industry trends, innovative packaging solutions, product developments, and updates from kdc/one Clarion.</p>
+                       {/* <p className="text-start pt-0 pb-0">Stay informed with the latest beauty industry trends, innovative packaging solutions, product developments, and updates from kdc/one Clarion.</p>
 
                        <div className="input_tag">
  
@@ -105,7 +137,7 @@ export default function Footer(){
 
                            <button type="submit">Subscribe Now <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
 
-                       </div>
+                       </div> */}
 
                    </div>
 
@@ -143,8 +175,8 @@ export default function Footer(){
                         <ul className="social_link">
                             {/* <li><Link href="" ><Image src="/assets/img/facebook.svg" alt="" width={20} height={20}/> </Link></li> */}
                             {/* <li><Link href="" ><Image src="/assets/img/twitter.svg" alt="" width={14} height={12}/> </Link></li> */}
-                            <li><Link href="" > <Image src="/assets/img/instagram-icon.svg" alt="" width={18} height={18}/></Link></li>
-                            <li><Link href="" > <Image src="/assets/img/Linked-in.svg" alt="" width={18} height={18}/></Link></li>
+                            <li><Link href="https://www.instagram.com/kdc.one" target="_blank"> <Image src="/assets/img/instagram-icon.svg" alt="" width={18} height={18}/></Link></li>
+                            <li><Link href="https://www.linkedin.com/company/kdc-corporate" target="_blank"> <Image src="/assets/img/Linked-in.svg" alt="" width={18} height={18}/></Link></li>
                         </ul>
                         
                     </div>
