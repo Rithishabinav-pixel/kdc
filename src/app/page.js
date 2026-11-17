@@ -105,27 +105,27 @@ const capabilitiesData = [
 
 export default function Home() {
 
-  useEffect(() => {
+//   useEffect(() => {
 
-    const slider = document.getElementById("home_slider");
+//     const slider = document.getElementById("home_slider");
 
-    if (slider) {
+//     if (slider) {
 
-        const bsCarousel = new Carousel(slider, {
-            interval: 5000,
-            ride: "carousel",
-            pause: "hover",
-            wrap: true
-        });
+//         const bsCarousel = new Carousel(slider, {
+//             interval: 5000,
+//             ride: "carousel",
+//             pause: "hover",
+//             wrap: true
+//         });
 
-        bsCarousel.cycle();
+//         bsCarousel.cycle();
 
-        return () => {
-            bsCarousel.dispose();
-        };
-    }
+//         return () => {
+//             bsCarousel.dispose();
+//         };
+//     }
 
-}, []);
+// }, []);
 
 
   return (
