@@ -5,13 +5,10 @@ import Image from "next/image";
 import CountUp from "react-countup";
 import Link from "next/link";
 import CommonSwiper from "./components/CommonSwiper";
-import Insights from "./components/Insights";
 import PackageSwiper from "./components/PackageSwiper";
-import { usePathname } from "next/navigation";
 import Capabilities from "./components/Capabilities";
 import GsapTitle from "./components/GsapTitle";
-import { useEffect } from "react";
-import Carousel from "bootstrap/js/dist/carousel";
+
 
 
 const ProductSlides = [
@@ -105,27 +102,6 @@ const capabilitiesData = [
 
 export default function Home() {
 
-//   useEffect(() => {
-
-//     const slider = document.getElementById("home_slider");
-
-//     if (slider) {
-
-//         const bsCarousel = new Carousel(slider, {
-//             interval: 5000,
-//             ride: "carousel",
-//             pause: "hover",
-//             wrap: true
-//         });
-
-//         bsCarousel.cycle();
-
-//         return () => {
-//             bsCarousel.dispose();
-//         };
-//     }
-
-// }, []);
 
 
   return (
