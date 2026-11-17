@@ -25,7 +25,7 @@ export default function Header(){
 
          // console.log(window.scrollY)
 
-         if(window.scrollY > 500){
+         if(window.scrollY > 400 && window.innerWidth > 768 ){
 
             //  console.log("printed")
 

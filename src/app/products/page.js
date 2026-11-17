@@ -131,6 +131,54 @@ export default function products(){
   }, { scope: careTitle });
 
 
+    const [name, setName] = useState("");
+    const [designation, setDesignation] = useState("");
+    const [email, setEmail] = useState("");
+    const [mobile, setMobile] = useState("");
+    const [service, setService] = useState("");
+
+    const [errors, setErrors] = useState({});
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        let newErrors = {};
+
+        // Name validation
+        if (!name.trim()) {
+            newErrors.name = "Please enter your name";
+        }
+        if (!designation.trim()) {
+            newErrors.designation = "Please enter your designation";
+        }
+
+        if (!service.trim()) {
+            newErrors.service = "Please select your service";
+        }
+
+        // Email validation
+        if (!email.trim()) {
+            newErrors.email = "Please enter your email";
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            newErrors.email = "Please enter a valid email";
+        }
+
+        // Mobile validation
+        if (!mobile.trim()) {
+            newErrors.mobile = "Please enter mobile number";
+        } else if (!/^[0-9]{10}$/.test(mobile)) {
+            newErrors.mobile = "Enter a valid 10-digit mobile number";
+        }
+
+        setErrors(newErrors);
+
+        // If no errors
+        if (Object.keys(newErrors).length === 0) {
+            alert("Form submitted successfully!");
+        }
+    };
+
+
     return (
 
         <> 
@@ -194,7 +242,7 @@ export default function products(){
 
                         <div className={styles.mnft_img} data-aos="fade-right">
 
-                            <Image src="/assets/img/solor_img.webp" alt="" className="img_rez mb-3" width={747} height={498} />
+                            <Image src="/assets/img/hair-skin-formation-img.webp" alt="" className="img_rez mb-3" width={747} height={498} />
 
                         </div>
 
@@ -295,8 +343,8 @@ Combining international innovation with Clarion's Indian market insights, we bri
             </div>
 
            
-
-            <div className="product_slider" data-aos="fade-up">
+ 
+            <div className="product_slider skinCare" data-aos="fade-up">
               
             <Capabilities CapData={Skincare} />
 
@@ -327,7 +375,7 @@ Combining international innovation with Clarion's Indian market insights, we bri
 
             </div>
 
-            <div className="product_slider" data-aos="fade-up">
+            <div className="product_slider hairCare"  data-aos="fade-up">
               
             <Capabilities CapData={Haircare} />
 
@@ -361,7 +409,7 @@ Our focus is on formulation possibilities that bring together product performanc
 
                     <div className={styles.slr_img} data-aos="fade-up">
 
-                       <Image src="/assets/img/solor_img.webp" alt="" className="img_rez" width={620} height={620} />
+                       <Image src="/assets/img/innovation-img-p.webp" alt="" className="img_rez" width={620} height={620} />
 
                     </div>
 
@@ -504,23 +552,26 @@ Our focus is on formulation possibilities that bring together product performanc
 
                             <h3 className="frm_titl">Tell Us About Yourself</h3>
                           
-                          <form>
+                            <form onSubmit={handleSubmit}>
 
-                              <input type="text" placeholder="Full Name" />
+                              <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" className={errors.name ? "input-error" : ""} />
+
 
                               {/* <input type="text" placeholder="Company Name" /> */}
 
-                              <input type="text" placeholder="Designation" />
+                              <input type="text" value={designation} onChange={(e) => setDesignation(e.target.value)} placeholder="Designation" className={errors.designation ? "input-error" : ""} />
 
-                              <input type="text" placeholder="Email Address" /> 
+                              <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" className={errors.email ? "input-error" : ""} /> 
 
-                              <PhoneInputTag>
 
+                              <PhoneInputTag value={mobile} onChange={(e) => setMobile(e.target.value)} className={errors.email ? "input-error" : ""}>
+                                
                               </PhoneInputTag>
 
-                              
 
-                              <select>
+
+
+                              <select value={service} onChange={(e) => setService(e.target.value)} className={errors.service ? "input-error" : ""}>
                                     
                                     <option>Service Required</option>
                                     <option value="Formulation">Formulation</option>
@@ -533,14 +584,14 @@ Our focus is on formulation possibilities that bring together product performanc
                               <textarea placeholder="Tell us about your project" />
 
                                 <div className="input_tag">
- 
+
                                     {/* <input type="text" placeholder="Enter your email address"/> */}
 
                                     <button type="submit">Submit <Image src="/assets/img/right_arrow_icn.svg" alt="" width={24} height={24}/></button>
 
                                 </div>
 
-                          </form>
+                            </form>
  
                       </div>
 

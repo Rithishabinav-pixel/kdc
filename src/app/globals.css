@@ -1055,7 +1055,42 @@ footer .addr_txt p{
 footer .addr_txt img{
   filter: brightness(0) invert(1);
 }
+.input-error {
+  border-color: red !important;
+}
+.hairCare .cpb_crd .cpb_crd_cnt, .skinCare .cpb_crd .cpb_crd_cnt{
+  position: inherit;
+  padding: 20px;
+}
+.hairCare .cpb_crd img, .skinCare .cpb_crd img{
+  display: none;
+}
+.LoadedContent header {
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 0;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.LoadedContent header.transparent{
+  background-color: #2C20D1;
+}
+@keyframes fadeInDown {
+  from {
+      transform: translate3d(0, -200px, 0)
+  }
 
+  to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1
+  }
+}
 
 
 @media (prefers-color-scheme: dark) {
@@ -1402,6 +1437,10 @@ h2 br{
 }
 
 @media screen and (max-width: 768px){
+  .frm_titl {
+    font-size: 28px;
+    line-height: 36px;
+  }
  
   .clarion_cuntr .cunt_crf_kd, .kdc_cuntr .cunt_crf_kd{
     width: 48%;

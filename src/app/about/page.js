@@ -275,65 +275,75 @@ export default function About() {
 
             <div className="row mt-5">
 
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up">
+              <div className="col-sm-12 col-md-12 col-lg-12 col-xl-9">
 
-                  <div className={styles.come_crd}>
+                    <div className="row">
 
-                     <Image src="/assets/img/global-icn.png" alt="" width={80} height={80} />
+                      <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up">
 
-                     <h4>Global Expertise in Packaging Design and Engineering
-</h4>
+  <div className={styles.come_crd}>
 
-                  </div>
+    <Image src="/assets/img/global-icn.svg" alt="" width={80} height={80} />
 
-               </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="100">
-                   
-                  <div className={styles.come_crd}>
+    <h4>Global Expertise in Packaging Design and Engineering
+  </h4>
 
-                      <Image src="/assets/img/high-touch-icn.svg" alt="" width={80} height={80} />
+  </div>
 
-                      <h4>World-Class Skincare and Haircare Formulation Capabilities</h4>
+                      </div>
+                      <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+                      
+                      <div className={styles.come_crd}>
 
-                   </div>
- 
-               </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                          <Image src="/assets/img/high-touch-icn.svg" alt="" width={80} height={80} />
 
-                  <div className={styles.come_crd}>
+                          <h4>World-Class Skincare and Haircare Formulation Capabilities</h4>
 
-                      <Image src="/assets/img/skin-care-icn.svg" alt="" width={80} height={80} />
+                      </div>
 
-                      <h4>Established Indian Manufacturing, Blending and Filling Expertise
-</h4>
+                      </div>
+                      <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="200">
 
-                   </div>
+                      <div className={styles.come_crd}>
 
-               </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                          <Image src="/assets/img/skin-care-icn.svg" alt="" width={80} height={80} />
 
-                   <div className={styles.come_crd}>
+                          <h4>Established Indian Manufacturing, Blending and Filling Expertise
+                      </h4>
 
-                      <Image src="/assets/img/local-icn.svg" alt="" width={80} height={80} />
+                      </div>
 
-                      <h4>Solutions Tailored to Indian and Asian Market Needs
-</h4>
+                      </div>
+                      <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="300">
+
+                      <div className={styles.come_crd}>
+
+                          <Image src="/assets/img/local-icn.svg" alt="" width={80} height={80} />
+
+                          <h4>Solutions Tailored to Indian and Asian Market Needs
+                      </h4>
+
+                        </div>
+
+                      </div>
+                      <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="400">
+
+                      <div className={styles.come_crd}>
+
+                        <Image src="/assets/img/solution-icn.svg" alt="" width={80} height={80} />
+
+                        <h4>Premium Beauty Packaging Capabilities Being Developed in India
+                      </h4>
+
+                      </div>
+
+                      </div>
 
                     </div>
 
-               </div>
-               <div className="col-12 col-sm-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-delay="400">
+              </div>
 
-                <div className={styles.come_crd}>
-
-                    <Image src="/assets/img/solution-icn.svg" alt="" width={80} height={80} />
-
-                    <h4>Premium Beauty Packaging Capabilities Being Developed in India
-</h4>
-
-                </div>
-
-               </div>
+               
                {/* <div className="col-12 col-sm-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="500">
 
                  <div className={styles.come_crd}>

@@ -15,7 +15,7 @@ h1.clr_wht, p.clr_wht {
 }
 .infrst_hro_img {
     height: auto;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .infrst_hro_img {
     background-image: url(/assets/img/infrastructure_img.webp);
