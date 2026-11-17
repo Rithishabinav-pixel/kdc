@@ -8,6 +8,7 @@ import CommonSwiper from "./components/CommonSwiper";
 import PackageSwiper from "./components/PackageSwiper";
 import Capabilities from "./components/Capabilities";
 import GsapTitle from "./components/GsapTitle";
+import { useEffect, useRef } from "react";
 
 
 
@@ -22,11 +23,7 @@ const ProductSlides = [
     title: "Haircare",
     img: "/assets/img/hair_care_img.webp", 
    },
-  //  {
-  //   id:4,
-  //   title: "Sun Protection",
-  //   img: "/assets/img/sun_care_img.webp",
-  //  },
+ 
   
 ]
 
@@ -103,6 +100,38 @@ const capabilitiesData = [
 export default function Home() {
 
 
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+
+      let carousel;
+
+      const initSlider = async () => {
+
+          const { default: BootstrapCarousel } =
+              await import("bootstrap/js/dist/carousel");
+
+          if (!sliderRef.current) return;
+
+          carousel = new BootstrapCarousel(sliderRef.current, {
+              interval: 5000,
+              pause: "hover",
+              wrap: true,
+              touch: true
+          });
+
+          carousel.cycle();
+      };
+
+      initSlider();
+
+      return () => {
+          carousel?.dispose();
+      };
+
+  }, []);
+
+
 
   return (
 
@@ -117,7 +146,7 @@ export default function Home() {
 
            <div className="col-sm-12 col-lg-6 col-xl-6 col-xxl-5">
   
-                <div id="home_slider" className="carousel slide" data-aos="fade-up">
+                <div id="home_slider"  ref={sliderRef} className="carousel slide">
 
                   {/* Indicators */}
  
@@ -128,6 +157,7 @@ export default function Home() {
                     <button type="button" data-bs-target="#home_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
                     <button type="button" data-bs-target="#home_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
                   </div>
 
                   {/* Slides */}
