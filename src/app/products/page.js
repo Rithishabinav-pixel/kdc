@@ -12,6 +12,7 @@ import { SplitText } from "gsap/SplitText";
 import GsapTitle from "../components/GsapTitle";
 import PhoneInputTag from "../components/PhoneInputTag";
 import Capabilities from "../components/Capabilities";
+import PackageSwiper from "../components/PackageSwiper";
 
 const Skincare = [
   {
@@ -400,7 +401,7 @@ Combining international innovation with Clarion's Indian market insights, we bri
                      
 
                       <p>
-                      Whether exploring an established formulation, adapting a global concept or developing a distinctive product proposition, our combined expertise provides a strong foundation for beauty innovation.
+                      Whether exploring an established formulation, adapting a global concept or developing a distinctive product proposition, our combined expertise provides a strong foundation for beauty innovation.<br /><br />
 Our focus is on formulation possibilities that bring together product performance, appealing textures, consumer convenience and market relevance.
 </p>
 
@@ -451,6 +452,52 @@ Our focus is on formulation possibilities that bring together product performanc
                </div>
 
             </div>
+
+          </section>
+
+          <section className="packaging_sliding pb-0" data-aos="fade-up">
+
+          <div className="container p-0">
+
+              <div className="row justify-content-center">
+
+          <div className="col-sm-12 col-md-10 col-lg-10">
+
+            <GsapTitle className="blk_cmmn_tit text-center">
+            
+            Beauty Packaging. Combining Aesthetic Appeal, Functionality and Everyday Convenience.
+
+            </GsapTitle>
+
+          
+
+            {/* <div className="two_btns">
+
+                <Link href="#" className="common_btn"> <span>Know More</span> <Image src="/assets/img/right_arrow_icn.svg" alt="Arrow" width={24} height={24}/></Link>
+
+                <Link href="#" className="wht_btn"> <span>Know More</span> <Image src="/assets/img/blu-arr.svg" alt="Arrow" width={24} height={24}/></Link>
+
+            </div> */}
+
+          </div>
+
+              </div>
+
+              <div className="row">
+
+                <div className="col-lg-12">
+
+                  <div className="package_sliders">
+
+                    <PackageSwiper />
+
+                    </div>
+
+                </div>
+
+              </div>
+
+          </div>
 
           </section>
 
@@ -534,7 +581,7 @@ Our focus is on formulation possibilities that bring together product performanc
 
                <div className="row justify-content-between">
 
-                  <div className="col-xl-6" data-aos="fade-right">
+                  <div className="col-xl-6">
                     
                   <GsapTitle className="blk_cmmn_tit">
             
@@ -543,7 +590,7 @@ Our focus is on formulation possibilities that bring together product performanc
                  </GsapTitle>
 
 
-                      <p>Whether you are developing a new beauty product or exploring premium packaging, our team is ready to start the conversation.</p>
+                      <p data-aos="fade-right">Whether you are developing a new beauty product or exploring premium packaging, our team is ready to start the conversation.</p>
 
                   </div>
                   <div className="col-xl-5" data-aos="fade-left">
