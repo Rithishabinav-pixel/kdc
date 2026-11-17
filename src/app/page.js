@@ -10,6 +10,8 @@ import PackageSwiper from "./components/PackageSwiper";
 import { usePathname } from "next/navigation";
 import Capabilities from "./components/Capabilities";
 import GsapTitle from "./components/GsapTitle";
+import { useEffect } from "react";
+import Carousel from "bootstrap/js/dist/carousel";
 
 
 const ProductSlides = [
@@ -57,43 +59,43 @@ const capabilitiesData = [
     id: 1,
     title: "Formulation Innovation",
     description: "Formulation expertise and research capabilities support the development of premium skincare and haircare products shaped around evolving brand needs and consumer expectations.",
-    img: "/assets/img/prd-img-3.webp",
+    img: "/assets/img/formulation-img.webp",
   },
   {
     id: 2,
     title: "Product Development & Manufacturing",
     description: "Global R&D capabilities supported by an expansive formula library across skincare/haircare, global innovation expertise and established local manufacturing footprint helps beauty and personal care brands create relevant solutions.",
-    img: "/assets/img/prd-img-4.webp",
+    img: "/assets/img/product-development-img.webp",
   },
   {
     id: 3,
     title: "Injection Moulding",
     description: "Precision-engineered packaging components designed to meet the functional and aesthetic requirements of beauty and personal care products.",
-    img: "/assets/img/prd-img-1.webp",
+    img: "/assets/img/injection-moduling-img.webp",
   },
   {
     id: 4,
     title: "Metallisation", 
     description: "Premium metallic finishes that enhance packaging appeal, adding depth, visual distinction and a refined look to beauty products.",
-    img: "/assets/img/prd-img-2.webp",
+    img: "/assets/img/metallisation-img.webp",
   },
   {
     id: 5,
     title: "Screen Printing",
     description: "Packaging decoration that brings brand identities to life through clear graphics, precise detailing and consistent visual presentation.",
-    img: "/assets/img/~prd-img-3.webp",
+    img: "/assets/img/screen-printing-img.webp",
   },
   {
     id: 6,
     title: "Hot Foil Stamping",
     description: "Distinctive foil accents that add a premium finish to cosmetic packaging, enhancing visual appeal through refined metallic detailing.",
-    img: "/assets/img/prd-img-4.webp",
+    img: "/assets/img/hot-foli-img.webp",
   },
   {
       id: 7,
       title: "Packaging Design and Engineering",
       description: "Global design expertise and engineering knowledge come together to develop packaging that balances aesthetics, functionality and manufacturing requirements.",
-      img: "/assets/img/prd-img-5.webp",
+      img: "/assets/img/packing-design-img.webp",
   },
   
 ]
@@ -102,6 +104,28 @@ const capabilitiesData = [
 
 
 export default function Home() {
+
+  useEffect(() => {
+
+    const slider = document.getElementById("home_slider");
+
+    if (slider) {
+
+        const bsCarousel = new Carousel(slider, {
+            interval: 5000,
+            ride: "carousel",
+            pause: "hover",
+            wrap: true
+        });
+
+        bsCarousel.cycle();
+
+        return () => {
+            bsCarousel.dispose();
+        };
+    }
+
+}, []);
 
 
   return (
@@ -117,7 +141,7 @@ export default function Home() {
 
            <div className="col-sm-12 col-lg-6 col-xl-6 col-xxl-5">
   
-                <div id="home_slider" className="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+                <div id="home_slider" className="carousel slide" data-aos="fade-up">
 
                   {/* Indicators */}
  

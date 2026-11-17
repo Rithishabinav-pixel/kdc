@@ -182,11 +182,11 @@ export default function Footer(){
                     </div>
                     <div className="col-lg-4 col-xl-4">  
 
-                         <ul className="ftr_links trm_con social_link">
+                         {/* <ul className="ftr_links trm_con social_link">
                             <li><Link href="" >Terms of Service </Link></li>
                             <li><Link href="" >Privacy Policy</Link></li>
 
-                        </ul>
+                        </ul> */}
                         
                     </div>
 
