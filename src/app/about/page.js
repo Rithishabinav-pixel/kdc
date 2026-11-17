@@ -257,14 +257,15 @@ export default function About() {
 
               <GsapTitle className="wht_cmmn_tit">
             
-                Why Beauty Brands Partner With Us.
+              The Strength of Our Partnership
 
               </GsapTitle>
 
 
                   <p className={`wht_txt ${styles.wht_txt}`}>
                 
-                  Beauty brands need more than individual capabilities; they need the right expertise working in sync. This partnership brings formulation, packaging and manufacturing closer together, helping turn promising ideas into distinctive beauty products made in India.
+                  Successful beauty brands need more than individual capabilities. They need the right expertise, innovation and manufacturing strengths working together. kdc/one Clarion Beauty brings global beauty innovation and packaging expertise together with deep Indian market knowledge and established manufacturing capabilities, creating new possibilities for differentiated beauty products and packaging solutions in India.
+
 
 
                   </p>
