@@ -92,7 +92,7 @@ export default function Header(){
                </div>
                <div className="col-7 col-md-4 col-lg-6 p-0">
                 
-                   <div className="logo_img text-start">
+                   <div className="logo_img">
 
                      <Link href="/">
 

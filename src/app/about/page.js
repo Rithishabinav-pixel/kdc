@@ -253,6 +253,16 @@ export default function About() {
 
             <div className="row p-0">
 
+              {/* <div className="col-sm-12">
+
+                  <div className={styles.camet_mbl_vw}>
+
+                      <Image src="/assets/img/bb-bg-mbl-vw.webp" className="img_rez" width={984} height={515} alt="" />
+
+                  </div>
+
+              </div> */}
+
               <div className="col-lg-12 col-xl-6" data-aos="fade-up">
 
               <GsapTitle className="wht_cmmn_tit">

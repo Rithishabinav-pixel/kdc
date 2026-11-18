@@ -184,8 +184,10 @@ h1.clr_wht, .clr_wht{
 .top_vs_spc {
     padding-top: 330px;
 }
-
-
+.camet_mbl_vw {
+    display: none;
+}
+ 
 
 
 
@@ -297,6 +299,41 @@ h1.clr_wht, .clr_wht{
 }
 
 @media screen and (max-width: 767px){
+   .cametgthr::before{ 
+    display: none;
+    }
+     /* .cametgthr{
+        background-image: none;
+        background-color: #F4F3EA;
+    }
+    .cametgthr h2, .cametgthr p{
+       color: #000;
+    }
+    .come_crd{
+        box-shadow: 0 0 10px 5px #0000000d;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 6px;
+    }
+    .come_crd img{
+        background-color: #2C20D1;
+        padding: 16px;
+        border-radius: 6px;
+    }
+    .come_crd h4{
+        color: #000;
+        font-size: 20px;
+        line-height: 28px;
+    }
+     .camet_mbl_vw {
+        display: block;
+        margin-bottom: 20px;
+    } */
+    .cametgthr{
+        background-image: url(/assets/img/bb-bg-mbl-vw.webp);
+        padding-bottom: 400px;
+        background-position: bottom;
+    }
     .idea_section .idea_prds .idea_lst { 
         width: 300px;
         height: 300px;

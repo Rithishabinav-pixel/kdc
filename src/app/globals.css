@@ -35,6 +35,10 @@ header {
   width: 100%;
   z-index: 999;
 }
+.logo_img{
+  text-align: start;
+}
+
 .slider_section{
   /* padding-top: 100px; */
   height: 100vh;
@@ -210,7 +214,7 @@ h2.slider_caption, h1.bnr_titl {
 }
 #home_slider {
   /* padding: 50px 0px 100px 0px; */
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 
 }
 .international_Expertise, .manufacturing_section{
@@ -283,8 +287,8 @@ h2.slider_caption, h1.bnr_titl {
   height: auto;
 }
 .counterSection h3{
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 72px;
+  line-height: 80px;
   color: #2C20D1;
   font-weight: 200;
   text-align: center;
@@ -913,9 +917,9 @@ footer .input_tag input {
   height: 95px;
 }  */
 #home_slider .carousel-indicators {
-  justify-content: end;
+  justify-content: start;
   margin-left: 0%;
-  bottom: -10px;
+  bottom: -60px;
 }
 #home_slider .carousel-indicators button{
   background-color: #2C20D1;
@@ -977,21 +981,24 @@ footer .input_tag input {
   width: 85%;
 }
 .clarion_cuntr, .kdc_cuntr, .kdc_clarion_cuntr{
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  
 }
 .clarion_cuntr .cunt_crf_kd, .kdc_cuntr .cunt_crf_kd{
-   width: 40%;
+   width: 100%;
 }
 .cunt_crf_kd small{
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 46px;
+  line-height: 54px;
 }
-.clarion_cuntr, .kdc_cuntr {
+.cunt_crf_kd {
+  margin-bottom: 40px;
+}
+/* .clarion_cuntr, .kdc_cuntr {
   width: 50%;
   justify-content: center;
   gap: 10px;
-}
+} */
 .kdc_clarion_cuntr {
   position: relative;
 }
@@ -1081,6 +1088,12 @@ footer .addr_txt img{
 .LoadedContent header.transparent{
   background-color: #2C20D1;
 }
+.LoadedContent header .logo_img{
+  text-align: center;
+}
+.LoadedContent header .logo_img img{
+  max-width: 290px;
+}
 @keyframes fadeInDown {
   from {
       transform: translate3d(0, -200px, 0)
@@ -1090,6 +1103,9 @@ footer .addr_txt img{
       transform: translate3d(0, 0, 0);
       opacity: 1
   }
+}
+.manufacturing_mbl_vw, .mbl_clarn_cuntr_logo, .mbl_kdc_cuntr_logo{
+  display: none;
 }
 
 
@@ -1218,9 +1234,13 @@ footer .addr_txt img{
     line-height: 68px;
   }
   .counterSection h3 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 40px;
+    line-height: 48px;
   }
+  .cunt_crf_kd small {
+    font-size: 36px;
+    line-height: 44px;
+}
   .counterSection p{
     font-size: 18px;
     line-height: 26px;
@@ -1434,21 +1454,44 @@ h2 br{
 .slider_section {
   background-image: none;
 }
+#home_slider .carousel-indicators{
+  justify-content: start;
+}
+#home_slider .carousel-indicators{
+  bottom: -50px;
+}
 }
 
 @media screen and (max-width: 768px){
+ 
+  .clarion_cuntr, .kdc_cuntr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .manufacturing_mbl_vw {
+    display: block;
+    margin-top: 30px;
+  }
+  .manufacturing_section {
+    background-color: #f4f3ea;
+    background-image: none;
+  }
+  .manufacturing_section:after {
+    background: none;
+  }
+  .manufacturing_section h2, .manufacturing_section p{
+    color: #000;
+  }
   .frm_titl {
     font-size: 28px;
     line-height: 36px;
   }
  
   .clarion_cuntr .cunt_crf_kd, .kdc_cuntr .cunt_crf_kd{
-    width: 48%;
+    width: 50%;
   }
 
-  #home_slider .carousel-indicators{
-    bottom: 10px;
-  }
+  
   header {
     position: fixed;
     top: 0px;
@@ -1476,7 +1519,7 @@ h2 br{
     display: none;
   }
   h2.slider_caption, h1.bnr_titl {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 48px;
   }
   .wht_cmmn_tit, .blk_cmmn_tit {
@@ -1488,14 +1531,16 @@ h2 br{
   }
   .slider_section .carousel-item p {
     width: 100%;
+    min-height: 130px;
   }
       .counterSection h3 {
-        font-size: 26px;
-        line-height: 34px;
+        font-size: 46px;
+        line-height: 54px;
     }
   .counterSection p{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0px;
   }
   .ftr_btns{
     gap: 10px;
@@ -1535,7 +1580,7 @@ h2 br{
   .mobile_menu.active_popup {
     width: 340px;
   }
-  h1 br, .mb-none {
+  h1 br, .mb-none, .kdc_clarion_cuntr_img {
     display: none;
   }
   .main_logo{
@@ -1557,12 +1602,28 @@ h2 br{
     width: 100%;
   }
   .cunt_crf_kd small {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .mbl_clarn_cuntr_logo, .mbl_kdc_cuntr_logo {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .mbl_kdc_cuntr_logo img{
+    width: 180px;
+  }
+  .cunt_crf_kd, .kdc_cuntr{
+    margin-bottom: 20px;
+  }
+  .logo_img{
+    text-align: end;
+    padding-right: 10px;
   }
 }
 
 @media screen and (max-width: 527px){
+  
   header .common_btn{
     width: fit-content;
     padding: 10px 6px;

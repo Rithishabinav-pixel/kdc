@@ -237,9 +237,9 @@ export default function products(){
      
             <div className="container p-0">
 
-                <div className="row justify-content-between align-items-center p-0">
+                <div className="row flex-row-reverse justify-content-between align-items-center p-0">
 
-                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-5">
+                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-5 order-2 order-md-2">
 
                         <div className={styles.mnft_img} data-aos="fade-right">
 
@@ -248,7 +248,7 @@ export default function products(){
                         </div>
 
                      </div>
-                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-1 order-md-1">
 
                         <div className={styles.mnft_cnt}>
 
@@ -587,7 +587,7 @@ Our focus is on formulation possibilities that bring together product performanc
             
                   Let’s Create What’s Next in Beauty
 
-                 </GsapTitle>
+                 </GsapTitle> 
 
 
                       <p data-aos="fade-right">Whether you are developing a new beauty product or exploring premium packaging, our team is ready to start the conversation.</p>

@@ -315,7 +315,7 @@ export default function Home() {
 
        </div>
 
-       <div className="row justify-content-center" data-aos="fade-up">
+       {/* <div className="row justify-content-center" data-aos="fade-up">
 
          <div className="col-lg-10">
 
@@ -327,22 +327,24 @@ export default function Home() {
 
          </div>
 
-       </div>
+       </div> */}
 
-       <div className="row mt-3">
+       <div className="row align-items-center mt-3">
 
+           <div className="col-sm-12 col-md-3 col-lg-3 p-0">
 
+             <div className="mbl_kdc_cuntr_logo" data-aos="fade-up">
 
-         <div className="kdc_clarion_cuntr">
+               <Image src="/assets/img/kdc_ctr-logo.svg" width={230} height={51} alt="" />
 
-            <div className="clarion_cuntr">
- 
-                 <h3>For kdc/one</h3>
+             </div>
 
-                <div className="cunt_crf_kd">
+              <div className="kdc_cuntr">
 
-                   <h3>
-            
+                <div className="cunt_crf_kd" data-aos="fade-up">
+
+                  <h3>
+
                       <CountUp end={30} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
 
                   </h3>
@@ -350,10 +352,10 @@ export default function Home() {
                   <p>Manufacturing Facilities</p>    
 
                 </div>
-                <div className="cunt_crf_kd">
+                <div className="cunt_crf_kd" data-aos="fade-up">
 
                   <h3>
-              
+
                       <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
 
                   </h3>
@@ -362,11 +364,11 @@ export default function Home() {
 
                   
                 </div>
-                <div className="cunt_crf_kd">
+                <div className="cunt_crf_kd" data-aos="fade-up">
 
                     <h3>
                   
-                    {` > `}<CountUp end={6.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn Square Ft</small>
+                    {` > `}<CountUp end={6.5} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn Sq.Ft.</small>
 
                     </h3>
 
@@ -374,7 +376,7 @@ export default function Home() {
 
                   
                 </div>
-                <div className="cunt_crf_kd">
+                <div className="cunt_crf_kd" data-aos="fade-up">
 
                     <h3>
                       
@@ -387,64 +389,81 @@ export default function Home() {
                   
                 </div>
 
-                
+              </div>
+              
 
-            </div>
-            <div className="kdc_cuntr">
+           </div>
+            <div className="col-sm-12 col-md-6 col-lg-6 p-0">
 
-                <h3>For Clarion</h3>
-  
-                <div className="cunt_crf_kd">
+                <div className="kdc_clarion_cuntr_img" data-aos="zoom-in">
 
-                <h3>
-
-                  <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
-
-                </h3>
-
-                <p>Manufacturing Facilities</p>    
-
-                </div>
-                <div className="cunt_crf_kd">
-
-                <h3>
-
-                  <CountUp end={235000} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+ MT</small>
-
-                </h3>
-
-                <p>Annual Production Capacity </p> 
-
-
-                </div>
-                <div className="cunt_crf_kd">
-
-                <h3>
-
-                    <CountUp end={1} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn + Square Ft</small>
-
-                </h3>
-
-                <p>Manufacturing Infrastructure </p> 
-
-
-                </div>
-                <div className="cunt_crf_kd">
-
-                <h3>
-                  
-                  <CountUp end={1500} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+</small>
-
-                </h3>
-
-                <p>SKU’s produced annually </p>
-
+                  <Image src="/assets/img/kdc-clron_img.svg" className="img_rez" height={747} width={551} alt=""/>
 
                 </div>
               
             </div>
+            <div className="col-sm-12 col-md-3 col-lg-3 p-0">
 
-         </div>
+                 <div className="mbl_clarn_cuntr_logo" data-aos="fade-up">
+
+                  <Image src="/assets/img/clrn_ctr-logo.svg" width={230} height={51} alt="" />
+
+                 </div>
+              
+                  <div className="clarion_cuntr">
+
+                    <div className="cunt_crf_kd" data-aos="fade-up">
+
+                    <h3>
+
+                      <CountUp end={14} duration={2} enableScrollSpy scrollSpyOnce={false}/> 
+
+                    </h3>
+
+                    <p>Manufacturing Facilities</p>    
+
+                    </div>
+                    <div className="cunt_crf_kd" data-aos="fade-up">
+
+                    <h3>
+
+                      <CountUp end={235} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>L + MT</small>
+
+                    </h3>
+
+                    <p>Annual Production Capacity </p> 
+
+
+                    </div>
+                    <div className="cunt_crf_kd" data-aos="fade-up">
+
+                    <h3>
+
+                        <CountUp end={1} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small> mn + Sq.Ft.</small>
+
+                    </h3>
+
+                    <p>Manufacturing Infrastructure </p> 
+
+
+                    </div>
+                    <div className="cunt_crf_kd" data-aos="fade-up">
+
+                    <h3>
+                      
+                      <CountUp end={1500} duration={2} enableScrollSpy scrollSpyOnce={false}/> <small>+</small>
+
+                    </h3>
+
+                    <p>SKU’s produced annually </p>
+
+
+                    </div>
+
+                  </div>
+              
+            </div>
+
 
          {/* <div className="col-6 col-md-6 col-lg-3 p-0" data-aos="fade-up">
           
@@ -509,7 +528,7 @@ export default function Home() {
 
             <div className="col-lg-5 col-xl-5">
 
-              <div data-aos="fade-up">
+              <div>
 
                     <GsapTitle className="blk_cmmn_tit">
         
@@ -542,7 +561,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
     </section>
 
-    <section className="packaging_sliding" data-aos="fade-up">
+    <section className="packaging_sliding">
 
       <div className="container p-0">
 
@@ -606,7 +625,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
        </div>
 
-       <div className="product_slider" data-aos="fade-up">
+       <div className="product_slider">
         
        <Capabilities CapData={capabilitiesData} />
 
@@ -802,7 +821,17 @@ This partnership bridges global innovation with local market needs, enabling the
 
             <div className="row justify-content-between"> 
 
-               <div className="col-md-10 col-lg-8 col-xl-5">
+               <div className="col-sm-12 order-2 order-md-2">
+
+                 <div className="manufacturing_mbl_vw" data-aos="fade-up">
+   
+                    <Image src="/assets/img/mnf-bnr.webp" className="img_rez" width={1000} height={510} alt="" />
+
+                 </div>
+
+               </div>
+
+               <div className="col-md-10 col-lg-8 col-xl-5 order-1 order-md-2">
 
                  <div data-aos="fade-up">
 
@@ -908,7 +937,7 @@ This partnership bridges global innovation with local market needs, enabling the
                
             </div>
 
-            <div className="col-lg-12 col-xl-5" data-aos="fade-up">
+            <div className="col-lg-12 col-xl-5 order-2 order-sm-2" data-aos="fade-up">
               
               <div className="cnt_img">
 
@@ -918,7 +947,7 @@ This partnership bridges global innovation with local market needs, enabling the
 
             </div>
 
-            <div className="col-lg-12 col-xl-3" data-aos="fade-left">
+            <div className="col-lg-12 col-xl-3 order-1 order-sm-3" data-aos="fade-left">
 
               <div className="mbl_vw">
 

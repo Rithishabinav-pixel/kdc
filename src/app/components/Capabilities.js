@@ -28,7 +28,7 @@ export default function Capabilities({CapData}) {
         speed={1000}
         navigation={true}
         breakpoints={{
-          527: {
+          650: {
             slidesPerView: 2,
           },
           768: {
