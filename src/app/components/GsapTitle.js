@@ -42,6 +42,8 @@ export default function GsapTitle({ children, className = "" }) {
           );
     
         })
+
+        ScrollTrigger.refresh();
     
         return () => mm.revert();
         

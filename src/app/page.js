@@ -27,26 +27,7 @@ const ProductSlides = [
   
 ]
 
-const Blogdata = [
-  {
-    id:1,
-    title:"Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque.",
-    img: "/assets/img/blog_img_one.webp",
-  },
-  {
-    id:2,
-    title:"Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque.",
-    img: "/assets/img/blog_img_two.webp",
-  },
-  {
-    id:3,
-    title:"Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque.",
-    img: "/assets/img/blog_img_three.webp",
-  }
-]
+
 
 const capabilitiesData = [
   {
@@ -339,9 +320,9 @@ export default function Home() {
 
              </div>
 
-              <div className="kdc_cuntr">
+              <div className="kdc_cuntr" data-aos="fade-up">
 
-                <div className="cunt_crf_kd" data-aos="fade-up">
+                <div className="cunt_crf_kd" >
 
                   <h3>
 
@@ -352,7 +333,7 @@ export default function Home() {
                   <p>Manufacturing Facilities</p>    
 
                 </div>
-                <div className="cunt_crf_kd" data-aos="fade-up">
+                <div className="cunt_crf_kd">
 
                   <h3>
 
@@ -364,7 +345,7 @@ export default function Home() {
 
                   
                 </div>
-                <div className="cunt_crf_kd" data-aos="fade-up">
+                <div className="cunt_crf_kd">
 
                     <h3>
                   
@@ -376,7 +357,7 @@ export default function Home() {
 
                   
                 </div>
-                <div className="cunt_crf_kd" data-aos="fade-up">
+                <div className="cunt_crf_kd">
 
                     <h3>
                       
@@ -410,9 +391,9 @@ export default function Home() {
 
                  </div>
               
-                  <div className="clarion_cuntr">
+                  <div className="clarion_cuntr" data-aos="fade-up">
 
-                    <div className="cunt_crf_kd" data-aos="fade-up">
+                    <div className="cunt_crf_kd" >
 
                     <h3>
 
@@ -423,7 +404,7 @@ export default function Home() {
                     <p>Manufacturing Facilities</p>    
 
                     </div>
-                    <div className="cunt_crf_kd" data-aos="fade-up">
+                    <div className="cunt_crf_kd">
 
                     <h3>
 
@@ -435,7 +416,7 @@ export default function Home() {
 
 
                     </div>
-                    <div className="cunt_crf_kd" data-aos="fade-up">
+                    <div className="cunt_crf_kd">
 
                     <h3>
 
@@ -447,7 +428,7 @@ export default function Home() {
 
 
                     </div>
-                    <div className="cunt_crf_kd" data-aos="fade-up">
+                    <div className="cunt_crf_kd">
 
                     <h3>
                       
@@ -545,7 +526,7 @@ export default function Home() {
 
             <div className="col-lg-4 d-flex flex-column-reverse">
 
-              <div className="gt_spc_top" data-aos="fade-up" data-aos-delay="100">
+              <div className="gt_spc_top" data-aos="fade-up">
 
                 <p className="cmmn_txt"> kdc/one Clarion Beauty combines kdc/one’s extensive formulation library across skincare and haircare, world-class R&D capabilities and global innovation expertise with Clarion’s deep understanding of the Indian market and established manufacturing footprint serving leading Indian and multinational brands.<br /><br />
 This partnership bridges global innovation with local market needs, enabling the development of differentiated, high-performance formulations tailored to Indian and Asian consumers, while creating a strong platform for beauty innovation and manufacturing excellence in India.
@@ -613,11 +594,16 @@ This partnership bridges global innovation with local market needs, enabling the
 
           <div className="col-sm-12 col-md-12 col-lg-8 col-xl-7 p-0">
 
+            <div  >
+              
             <GsapTitle className="text-center blk_cmmn_tit">
   
-              Capabilities That Bring Beauty Packaging to Life. 
+  Capabilities That Bring Beauty Packaging to Life. 
 
-            </GsapTitle>
+</GsapTitle>
+            </div>
+
+           
 
               {/* <h2 className="blk_cmmn_tit text-center"></h2> */}
 

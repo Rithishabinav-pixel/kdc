@@ -1092,7 +1092,9 @@ footer .addr_txt img{
   text-align: center;
 }
 .LoadedContent header .logo_img img{
-  max-width: 290px;
+  max-width: 250px;
+  height: auto;
+
 }
 @keyframes fadeInDown {
   from {
